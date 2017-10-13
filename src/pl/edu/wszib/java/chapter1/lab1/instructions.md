@@ -1,0 +1,1 @@
+# Polecenia do Lab1

@@ -1,4 +1,4 @@
-package pl.edu.wszib.java.chapter1;
+package pl.edu.wszib.java.chapter1.lab1;
 
 public class HelloWorld {
     public static void main(String[] args) {
