@@ -1,4 +1,4 @@
-package pl.edu.wszib.java.chapter2.demo1;
+package chapter2;
 
 class MarsRobot {
     String status;
