@@ -1,8 +1,8 @@
 package chapter2;
 
-class MarsApplication2 {
+class MarsApplication3 {
     public static void main(String[] arguments) {
-        MarsRobot spirit = new MarsRobot();
+        MarsRobot2 spirit = new MarsRobot2();
         System.out.println("\nDuch:");
         spirit.status = "eksploracja";
         spirit.speed = 2;
@@ -20,11 +20,14 @@ class MarsApplication2 {
         spirit.showAttributes();
 
         //Lab2.1
-        MarsRobot opportunity = new MarsRobot();
+        MarsRobot2 opportunity = new MarsRobot2();
         System.out.println("\nOkazja:");
         opportunity.status = "eksploracja";
         opportunity.speed = 4;
         opportunity.temperature = -90;
         opportunity.showAttributes();
+
+        opportunity.checkStatus();
+
     }
 }
