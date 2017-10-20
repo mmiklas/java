@@ -1,2 +1,1 @@
-# aaaaaaaa
-# bbbbbbb
+![Java Duke](img/duke.png)
