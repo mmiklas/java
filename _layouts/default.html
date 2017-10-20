@@ -18,24 +18,10 @@
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-        <div class="view">
-          {% assign url_parts = page.url | split: '/' %}
-{% assign url_parts_size = url_parts | size %}
-{% assign rm = url_parts | last %}
-{% assign base_url = page.url | replace: rm %}
-
-<ul>
-{% for node in site.pages %}
-  {% if node.url contains base_url %}
-    {% assign node_url_parts = node.url | split: '/' %}
-    {% assign node_url_parts_size = node_url_parts | size %}
-    {% assign filename = node_url_parts | last %}
-    {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
-      <li><a href='{{node.url}}'>{{node.title}}</a></li>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-</ul>
+        <div>
+          <p class="view"><a href="src/chapter1/index.html">Chapter 1</a></p>
+          <p class="view"><a href="src/chapter2/index.html">Chapter 2</a></p>
+          <p class="view"><a href="src/chapter3/index.html">Chapter 3</a></p>
         </div>
         
     
