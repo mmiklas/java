@@ -7,27 +7,31 @@ public class HelloWorld {
         }
 }
 ``` 
-a. Uruchom w Windows *Wiersz polecenia* (przycisk Start, cmd).
-a. Sprawdź wersje oraz dostępność zainstalowanych komponentów JDK.
+* Uruchom w Windows *Wiersz polecenia* (przycisk Start, cmd).
+* Sprawdź wersje oraz dostępność zainstalowanych komponentów JDK.
 
 ```bash
 java -version
 javac -version
 ```
 
-a. Na dysku Z: utwórz za pomocą notatnika plik _HelloWorld.java_ i wpisz w nim program.
-a. Korzystając z kompilatora javac, skompiluj program do bajtkodu otrzymując plik _HelloWorld.java_.
+* Na dysku Z: utwórz za pomocą notatnika plik _HelloWorld.java_ i wpisz w nim program.
+* Korzystając z kompilatora javac, skompiluj program do bajtkodu otrzymując plik _HelloWorld.java_.
 
 ```bash
 javac HelloWorld.java
 ```
 
-a. Poleceniem java uruchom wirtualną maszynę i wykonaj skompilowany wcześniej program.
-TIP: Gdy uruchamiasz program podaj tylko nazwę pliku/klasy, nie wpisuj rozszerzenia.
+* Poleceniem _java_ uruchom wirtualną maszynę i wykonaj skompilowany wcześniej program.
+*TIP:* Gdy uruchamiasz program podaj tylko nazwę pliku/klasy, nie wpisuj rozszerzenia.
+
+```bash
 java HelloWorld
-Korzystając z IDE IntelliJ IDEA "wyklikaj" i uruchom program HelloWorld z punktu 1.
-otwórz środowisko programistyczne IntelliJ IDEA (przycisk Start, idea)
-na ekranie powitalnym kliknij opcję Create New Project
+```
+
+2. Korzystając z IDE IntelliJ IDEA "wyklikaj" i uruchom program _HelloWorld_ z punktu 1.
+* Otwórz środowisko programistyczne *IntelliJ IDEA* (przycisk Start, idea).
+* Na ekranie powitalnym kliknij opcję *Create New Project*.
 
 zaznacz typ projektu Java i klikajac przycisk New wskaż ścieżkę do odpowiedniego SDK (C:\Program Files\Java\jdk1.8.0_144)
 nie wybieraj dodatkowych bibliotek ani framework'ów, kliknij przycisk Next
