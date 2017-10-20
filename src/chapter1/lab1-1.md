@@ -7,18 +7,22 @@ public class HelloWorld {
         }
 }
 ``` 
-* uruchom w Windows Wiersz polecenia (przycisk Start, cmd)
-* sprawdź wersje oraz dostępność zainstalowanych komponentów JDK
+a. Uruchom w Windows *Wiersz polecenia* (przycisk Start, cmd).
+a. Sprawdź wersje oraz dostępność zainstalowanych komponentów JDK.
 
 ```bash
 java -version
 javac -version
 ```
 
-Na dysku Z: utwórz za pomocą notatnika plik HelloWorld.java i wpisz w nim program.
-Korzystając z kompilatora javac, skompiluj program do bajtkodu otrzymując plik HelloWorld.java.
+a. Na dysku Z: utwórz za pomocą notatnika plik _HelloWorld.java_ i wpisz w nim program.
+a. Korzystając z kompilatora javac, skompiluj program do bajtkodu otrzymując plik _HelloWorld.java_.
+
+```bash
 javac HelloWorld.java
-Poleceniem java uruchom wirtualną maszynę i wykonaj skompilowany wcześniej program.
+```
+
+a. Poleceniem java uruchom wirtualną maszynę i wykonaj skompilowany wcześniej program.
 TIP: Gdy uruchamiasz program podaj tylko nazwę pliku/klasy, nie wpisuj rozszerzenia.
 java HelloWorld
 Korzystając z IDE IntelliJ IDEA "wyklikaj" i uruchom program HelloWorld z punktu 1.
