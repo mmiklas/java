@@ -33,7 +33,8 @@ java HelloWorld
 * Otwórz środowisko programistyczne **IntelliJ IDEA** (przycisk Start, idea).
 * Na ekranie powitalnym kliknij opcję **Create New Project**.  
 ![Create New Project](./ij_create_new_project.png "Create New Project")
-* Zaznacz typ projektu **Java** i klikajac przycisk **New** wskaż ścieżkę do odpowiedniego SDK *(C:\Program Files\Java\jdk1.8.0_144)*.
+* Zaznacz typ projektu **Java** i klikajac przycisk **New** wskaż ścieżkę do odpowiedniego SDK  
+*(C:\Program Files\Java\jdk1.8.0_144)*.
 * Nie wybieraj dodatkowych bibliotek ani framework'ów, kliknij przycisk **Next**.
 * Zaznacz opcję tworzenia projektu z szablonu **Create project from template**, szablon - **Java HelloWorld**, kliknij **Next**.
 * Nazwij projekt *HelloWorld* i kliknij **Finish**.
