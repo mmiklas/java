@@ -1,1 +1,1 @@
-![Java Duke](img/duke.png)
+![Java Logo](img/java-logo.png)
