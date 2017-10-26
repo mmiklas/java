@@ -1,1 +1,0 @@
-perl -e 'print "<html><body>a</body></html>"' > test.html

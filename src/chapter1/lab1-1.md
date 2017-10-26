@@ -1,4 +1,4 @@
--1. Korzystając z narzędzi dostępnych w JDK napisz, skompiluj i uruchom pierwszy program w języku Java.
+1. Korzystając z narzędzi dostępnych w JDK napisz, skompiluj i uruchom pierwszy program w języku Java.
 
 ```java
 public class HelloWorld {
@@ -22,7 +22,7 @@ javac -version
 javac HelloWorld.java
 ```
 
-* Poleceniem _java_ uruchom wirtualną maszynę i wykonaj skompilowany wcześniej program.
+* Poleceniem _java_ uruchom wirtualną maszynę i wykonaj skompilowany wcześniej program.  
 **TIP:** Gdy uruchamiasz program podaj tylko nazwę pliku/klasy, nie wpisuj rozszerzenia.
 
 ```bash
