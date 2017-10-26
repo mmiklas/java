@@ -4,7 +4,6 @@
 * [Lab 3.3](lab3-3.md)
 
 {% assign dir = '/src/chapter3/' %}
-# Java files
 {% include java_files.html %}
 
 
