@@ -1,4 +1,1 @@
-#!/bin/sh
-
-ls | egrep '(java)' | \\ #filter the content you want in the index
-perl -e 'print "<html><body><ul>"; while(<>) { chop $_; print "<li><a href=\"./$_\">$_</a></li>";} print "</ul></body></html>"' > index2.html
+perl -e 'print "<html><body>a</body></html>"' > test.html
