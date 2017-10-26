@@ -1,7 +1,8 @@
 # Java files
-<a href="sad">asdasddas1</a>
-<a href="sad">asdasddas2</a>
-<a href="sad">asdasddas3</a>
+
 {% for file in site.static_files %}
-<div><a href="sad">asdasddas</a></div>
+{% if file.extname == '.java' %}
+* []({{file.path}})
+<div><a href="{{file.path}}">{{file.path}}</a></div>
+{% endif %}
 {% endfor %}
