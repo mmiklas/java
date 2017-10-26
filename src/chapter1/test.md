@@ -1,7 +1,5 @@
-# aaaaaaaaa
+# Java files
 
-<h2>--- {{ site.time }} ---</h2>
-
-{% for p in site.pages %}
-    =====
+{% for item in site.static_files %}
+    {{ item.path }} - {{ item.extname }} 
 {% endfor %}
