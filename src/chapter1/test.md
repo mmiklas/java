@@ -4,7 +4,8 @@
 
 {% for file in site.static_files %}
 <ul>
-{% if ((file.path | slice: 0, 13 )==dir) and (file.extname == '.java') %}
+{% assign dir2 = file.path | slice: 0, 13 %}
+{% if dir2 == dir and file.extname == '.java' %}
 <li>
 
 {% assign dir2 = file.path | slice: 0, 13 %}
