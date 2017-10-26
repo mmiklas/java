@@ -1,10 +1,8 @@
-{% assign dir = '/src/chapter1/' %}
-
 # Labs
 * [Lab 1.1](lab1-1.md)
 
+{% assign dir = '/src/chapter1/' %}
 # Java files
-
 {% for file in site.static_files %}
 <ul>
     {% assign dir2 = file.path | slice: 0, 14 %}
