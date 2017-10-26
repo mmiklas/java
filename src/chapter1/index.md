@@ -3,4 +3,4 @@
 
 {% assign dir = '/src/chapter1/' %}
 # Java files
-{% include java_files_include.html %}
+{% include java_files.html %}
