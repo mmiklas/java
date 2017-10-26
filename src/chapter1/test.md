@@ -1,5 +1,7 @@
 # Java files
 
-{% for item in site.static_files %}
-    {{ item.path }} - {{ item.extname }} 
+{% for file in site.static_files %}
+    {% if file.extname == '.java' %}
+        * [file.path](file.path)
+    {% endif %}
 {% endfor %}
