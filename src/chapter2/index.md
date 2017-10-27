@@ -1,4 +1,5 @@
-# Labs
+# Chapter 2
+## Labs
 * [Lab 2.1](lab2-1.md)
 
 {% assign dir = '/src/chapter2/' %}
