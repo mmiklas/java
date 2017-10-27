@@ -3,13 +3,13 @@
 {% assign dir = '/src/chapter' | append: chapterNumber | append: '/' %}
 {% assign labFileSrc = 'lab' | append: chapterNumber | append: chapterNumber | append: '.md' %}
 <ul>
-    {% for file in site.static_files %}
-    {% assign dir2 = file.path | slice: 0, 14 %}
-    {% assign labNumber = file.path | slice: 19, 20 %}
+    {% for file in site.pages %}
+    {% assign dir2 = file.url | slice: 0, 14 %}
+    {% assign labNumber = file.url | slice: 19, 20 %}
     {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
-    {% if dir2 == dir and file.extname == '.html' %}
+    {% if dir2 == dir %}
     <li>
-        <div><a href="{{file.path | remove: dir}}">{{labName}}</a></div>
+        <div><a href="{{file.url | remove: dir}}">{{labName}}</a></div>
     </li>
     {% endif %}
     {% endfor %}
