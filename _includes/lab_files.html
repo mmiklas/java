@@ -1,15 +1,16 @@
 ## Labs
 
 {% assign dir = '/src/chapter' | append: chapterNumber | append: '/' %}
-{% assign labFileSrc = 'lab' | append: chapterNumber | append: chapterNumber | append: '.md' %}
 <ul>
-    {% for file in site.pages %}
-    {% assign dir2 = file.url | slice: 0, 14 %}
-    {% assign labNumber = file.url | slice: 19, 20 %}
+    {% for page in site.pages %}
+    {% assign dir2 = page.url | slice: 0, 14 %}
+    {% assign labNumber = page.url | slice: 19, 1 %}
     {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
-    {% if dir2 == dir %}
+    {% assign labFileSrc = page.url | remove: dir %}
+    {% assign prefix = labFileSrc | slice: 0, 3 %}
+    {% if dir2 == dir and prefix == 'lab' }
     <li>
-        <div><a href="{{file.url | remove: dir}}">{{labName}}</a></div>
+        <div><a href="{{labFileSrc}}">{{labName}}</a></div>
     </li>
     {% endif %}
     {% endfor %}
