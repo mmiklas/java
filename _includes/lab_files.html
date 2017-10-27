@@ -1,19 +1,11 @@
 ## Labs
-<ul>
-    {% for i in (1..labCounter) %}
-    <li>
-        <div><a href="lab9-9.md">Lab 9.9</a></div>
-    </li>
-    {% endfor %}
-</ul>
-
 
 {% assign dir = '/src/chapter' | append: chapterNumber | append: '/' %}
 {% assign labFileSrc = 'lab' | append: chapterNumber | append: chapterNumber | append: '.md' %}
 <ul>
     {% for file in site.static_files %}
     {% assign dir2 = file.path | slice: 0, 14 %}
-    {% assign labName = 'Lab ' | append: chapterNumber | append: '-' | append: file.path | slice: 19,20 %}
+    {% assign labName = 'Lab ' | append: chapterNumber | append: '-' | append: '1' %}
     {% if dir2 == dir and file.extname == '.md' %}
     <li>
         <div><a href="{{labName}}">{{file.path | remove: dir}}</a></div>
