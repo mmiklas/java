@@ -8,7 +8,7 @@
     {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
     {% assign labFileSrc = page.url | remove: dir %}
     {% assign prefix = labFileSrc | slice: 0, 3 %}
-    {% if dir2 == dir and prefix == 'lab' }
+    {% if dir2 == dir and prefix == 'lab' %}
     <li>
         <div><a href="{{labFileSrc}}">{{labName}}</a></div>
     </li>
