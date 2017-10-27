@@ -1,4 +1,5 @@
 ## Java files
+{% assign dir = '/src/chapter' | append: chapterNumber | append: '/' %}
 <ul>
     {% for file in site.static_files %}
     {% assign dir2 = file.path | slice: 0, 14 %}

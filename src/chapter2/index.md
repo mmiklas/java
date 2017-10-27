@@ -1,6 +1,6 @@
-# Chapter 2
-## Labs
-* [Lab 2.1](lab2-1.md)
+{% assign chapterNumber = 2 %}
 
-{% assign dir = '/src/chapter2/' %}
+# Chapter {{chapterNumber}}
+
+{% include lab_files.html %}
 {% include java_files.html %}

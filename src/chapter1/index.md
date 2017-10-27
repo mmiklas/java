@@ -1,7 +1,6 @@
-# Chapter 1
-
 {% assign chapterNumber = 1 %}
-{% include lab_files.html %}
 
-{% assign dir = '/src/chapter1/' %}
+# Chapter {{chapterNumber}}
+
+{% include lab_files.html %}
 {% include java_files.html %}

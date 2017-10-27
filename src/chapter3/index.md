@@ -1,9 +1,8 @@
-# Labs
-* [Lab 3.1](lab3-1.md)
-* [Lab 3.2](lab3-2.md)
-* [Lab 3.3](lab3-3.md)
+{% assign chapterNumber = 3 %}
 
-{% assign dir = '/src/chapter3/' %}
+# Chapter {{chapterNumber}}
+
+{% include lab_files.html %}
 {% include java_files.html %}
 
 
