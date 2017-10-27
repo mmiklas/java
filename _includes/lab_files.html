@@ -13,9 +13,10 @@
 <ul>
     {% for file in site.static_files %}
     {% assign dir2 = file.path | slice: 0, 14 %}
+    {% assign labName = 'Lab ' | append: chapterNumber | append: '-' | append: file.path | slice: 19,20 %}
     {% if dir2 == dir and file.extname == '.md' %}
     <li>
-        <div><a href="{{file.path}}">{{file.path | remove: dir}}</a></div>
+        <div><a href="{{labName}}">{{file.path | remove: dir}}</a></div>
     </li>
     {% endif %}
     {% endfor %}
