@@ -1,6 +1,6 @@
-{% assign chapterNumber = 1 %}
+{% include lab_files.html %}
 
-# Chapter {{chapterNumber}}
+# Chapter ooo {{chapterNumber}}
 
 {% include lab_files.html %}
 {% include java_files.html %}
