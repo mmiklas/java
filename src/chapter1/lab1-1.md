@@ -29,7 +29,7 @@ javac HelloWorld.java
 java HelloWorld
 ```
 
-    2. Korzystając z IDE IntelliJ IDEA "wyklikaj" i uruchom program _HelloWorld_ z punktu 1.
+2. Korzystając z IDE IntelliJ IDEA "wyklikaj" i uruchom program _HelloWorld_ z punktu 1.
 * Otwórz środowisko programistyczne **IntelliJ IDEA** (przycisk Start, idea).
 * Na ekranie powitalnym kliknij opcję **Create New Project**.  
 ![Create New Project](./ij_create_new_project.png "Create New Project")
