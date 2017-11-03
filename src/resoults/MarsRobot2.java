@@ -1,4 +1,6 @@
-package chapter2;
+package resoults;
+
+import resoults.Robot;
 
 public class MarsRobot2 implements Robot {
     String status;
