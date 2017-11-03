@@ -1,6 +1,4 @@
-/* Rozwiązanie dla rozdział 4., ćwiczenie 1. */
-
-package chapter3;
+package resoults;
 
 class YearDisplayer {
     public static void main(String[] arguments) {

@@ -1,6 +1,4 @@
-/* Rozwiązanie dla rozdział 3., ćwiczenie 1. */
-
-package chapter3;
+package resoults;
 
 import java.util.StringTokenizer;
 

@@ -1,4 +1,4 @@
-package chapter3;
+package resoults;
 
 class WordNumber {
     public static void main(String[] arguments) {

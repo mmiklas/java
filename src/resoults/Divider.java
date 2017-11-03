@@ -1,5 +1,3 @@
-/* Rozwiązanie dla rozdział 2., ćwiczenie 2. */
-   
 package resoults;
 
 class Divider {

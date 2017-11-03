@@ -1,5 +1,3 @@
-/* Rozwiązanie dla rozdział 2., ćwiczenie 1. */
-   
 package resoults;
 
 class Investor {
