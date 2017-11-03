@@ -2,7 +2,7 @@ package resoults;
 
 import chapter2.MarsRobot;
 
-class MarsApplication2 {
+public class MarsApplication2 {
     public static void main(String[] arguments) {
         MarsRobot spirit = new MarsRobot();
         System.out.println("\nDuch:");
