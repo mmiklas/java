@@ -1,6 +1,6 @@
 /* Rozwiązanie dla rozdział 2., ćwiczenie 2. */
    
-package chapter3;
+package resoults;
 
 class Divider {
     public static void main(String[] arguments) {
@@ -10,6 +10,6 @@ class Divider {
         float remainder = number1 % number2;
         System.out.println(number1 + " dzielone przez " + number2);
         System.out.println("\nWynik\tReszta");
-        System.out.println(result + "\t" + remainder);
+        System.out.println(result + "\t\t" + remainder);
     }
 }

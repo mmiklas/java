@@ -1,6 +1,6 @@
 /* Rozwiązanie dla rozdział 2., ćwiczenie 1. */
    
-package chapter3;
+package resoults;
 
 class Investor {
     public static void main(String[] arguments) {
