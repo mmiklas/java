@@ -1,4 +1,4 @@
-package resoults;
+package results;
 
 class Investor {
     public static void main(String[] arguments) {

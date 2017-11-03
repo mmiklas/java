@@ -1,4 +1,4 @@
-package resoults;
+package results;
 
 class Sample {
     int height;

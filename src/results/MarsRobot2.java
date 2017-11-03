@@ -1,6 +1,4 @@
-package resoults;
-
-import resoults.Robot;
+package results;
 
 public class MarsRobot2 implements Robot {
     String status;

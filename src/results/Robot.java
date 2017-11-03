@@ -1,4 +1,4 @@
-package resoults;
+package results;
 
 public interface Robot {
     void checkTemperature();

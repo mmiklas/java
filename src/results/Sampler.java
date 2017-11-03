@@ -1,4 +1,4 @@
-package resoults;
+package results;
 
 class Sampler {
     public static void main(String[] arguments) {

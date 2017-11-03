@@ -1,4 +1,4 @@
-package resoults;
+package results;
 
 class Divider {
     public static void main(String[] arguments) {

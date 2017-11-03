@@ -1,4 +1,4 @@
-package resoults;
+package results;
 
 class YearDisplayer {
     public static void main(String[] arguments) {

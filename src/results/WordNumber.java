@@ -1,4 +1,4 @@
-package resoults;
+package results;
 
 class WordNumber {
     public static void main(String[] arguments) {
