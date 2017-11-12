@@ -1,5 +1,6 @@
 package results;
 
+
 public class OutOfMemory {
     public static void main(String[] args) {
         int i = 10000000;
