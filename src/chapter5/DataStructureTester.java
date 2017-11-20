@@ -29,7 +29,7 @@ public class DataStructureTester {
     }
 
     private void  createTest(DataStructure dataStructure, String label) {
-        StopwatchUtil stopwatch = new StopwatchUtil();
+        Stopwatch stopwatch = new Stopwatch();
         stopwatch.start();
         dataStructure.create();
         stopwatch.stop();
@@ -37,7 +37,7 @@ public class DataStructureTester {
     }
 
     private void saveTest(DataStructure dataStructure, String label) {
-        StopwatchUtil stopwatch = new StopwatchUtil();
+        Stopwatch stopwatch = new Stopwatch();
         stopwatch.start();
         dataStructure.save();
         stopwatch.stop();
@@ -45,13 +45,12 @@ public class DataStructureTester {
     }
 
     private void readTest(DataStructure dataStructure, String label) {
-        StopwatchUtil stopwatch = new StopwatchUtil();
+        Stopwatch stopwatch = new Stopwatch();
         stopwatch.start();
         dataStructure.read();
         stopwatch.stop();
         stopwatch.showResult(label);
     }
-
 }
 
 

@@ -1,19 +1,19 @@
 package chapter5;
 
-public class StopwatchUtil {
+public class Stopwatch {
 
     private long startTime;
     private long stopTime;
 
-    void start() {
+    public void start() {
         startTime=System.currentTimeMillis();
     }
 
-    void stop() {
+    public void stop() {
         stopTime= System.currentTimeMillis();
     }
 
-    void showResult(String label) {
+    public void showResult(String label) {
         if (label!=null) {
             System.out.print(label + ": ");
         }
