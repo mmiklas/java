@@ -9,7 +9,7 @@ public class DataStructureTester {
 
         DataStructure arrayDataStructure = new ArrayDataStructure(MAX_ELEMENTS);
         DataStructure arrayListDataStructure = new ArrayListDataStructure(MAX_ELEMENTS);
-        DataStructure linkedListDataStructure = new Test2(MAX_ELEMENTS);
+        DataStructure linkedListDataStructure = new LinkedListDataStructure(MAX_ELEMENTS);
 
         dst.createTest(arrayDataStructure, "create Array");
         dst.createTest(arrayListDataStructure, "create ArrayList");
