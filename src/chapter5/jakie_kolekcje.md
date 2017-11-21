@@ -1,1 +1,1 @@
-![Java Logo](img/jakie_kolekcje.png)
+![Java Logo](img/jakie_kolekcje.jpg)
