@@ -19,4 +19,8 @@ public class Stopwatch {
         }
         System.out.println("czas " + (stopTime - startTime) + " ms");
     }
+
+    public void showResult() {
+        showResult(null);
+    }
 }

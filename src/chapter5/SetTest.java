@@ -2,17 +2,18 @@ package chapter5;
 
 import java.util.*;
 
-public class SetTest
-{ 
-   public static void main(String[] args) {
+public class SetTest {
+   public static void main(String[] args) throws Exception {
+      Set<String> words = new HashSet<>();
 
-      HashMap<String, String> phones = new HashMap<>();
+      Scanner in = new Scanner(System.in);
 
-      phones.put("Tomek","345-324-324");
-      phones.put("Tomek","234-111-333");
+      while (in.hasNext()) {
+         String word = in.next();
+         words.add(word);
+      }
 
-
-
+      System.out.println(words.size() + " unikalnych słów");
    }
 }
 
