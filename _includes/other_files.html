@@ -6,7 +6,7 @@
     {% assign dir2 = page.url | slice: 0, 14 %}
     {% assign otherName = 'test' %}
     {% assign otherFileSrc = page.url | remove: dir %}
-    {% assign prefix = labFileSrc | slice: 0, 3 %}
+    {% assign prefix = labFileSrc | slice: 0, 5 %}
     {% if dir2 == dir and prefix == 'other_' %}
     <li>
         <div><a href="{{otherFileSrc}}">{{otherName}}</a></div>
