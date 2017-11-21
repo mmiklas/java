@@ -6,7 +6,7 @@
     {% assign dir2 = page.url | slice: 0, 14 %}
     {% assign otherFileSrc = page.url | remove: dir %}
     {% assign prefix = otherFileSrc | slice: 0, 6 %}
-    {% assign otherName = page.name | remove: prefix %}
+    {% assign otherName = page.name | remove: prefix | remove: '.md' %}
 
     {% if dir2 == dir and prefix == 'other_' %}
     <li>
