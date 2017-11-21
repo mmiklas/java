@@ -4,11 +4,9 @@
 <ul>
     {% for page in site.pages %}
     {% assign dir2 = page.url | slice: 0, 14 %}
-    {% assign otherName = 'test' %}
     {% assign otherFileSrc = page.url | remove: dir %}
     {% assign prefix = otherFileSrc | slice: 0, 6 %}
-
-    ---{{prefix}}}
+    {% assign otherName = page.name | remove: prefix %}
 
     {% if dir2 == dir and prefix == 'other_' %}
     <li>
