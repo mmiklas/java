@@ -1,0 +1,16 @@
+## Other
+
+{% assign dir = '/src/chapter' | append: chapterNumber | append: '/' %}
+<ul>
+    {% for page in site.pages %}
+    {% assign dir2 = page.url | slice: 0, 14 %}
+    {% assign otherName = 'test' %}
+    {% assign labFileSrc = page.url | remove: dir %}
+    {% assign prefix = labFileSrc | slice: 0, 3 %}
+    {% if dir2 == dir and prefix == 'other_' %}
+    <li>
+        <div><a href="{{labFileSrc}}">{{labName}}</a></div>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
