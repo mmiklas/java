@@ -2,7 +2,7 @@ package results;
 
 import java.util.Random;
 
-public class MiniLottery {
+public class JackPot {
     public static final int BETS_NUMBER = 1_000;
     public static void main(String[] args) {
 
