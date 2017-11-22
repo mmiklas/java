@@ -1,4 +1,4 @@
-# Lab 4.2
+# Lab 4.3
 
 1. Utwórz zmodyfikowaną wersję projektu Storefront, który dla każdego elementu zawiera zmienną noDiscount. Gdy zmienna jest ustawiona na wartość true, sprzedaż zawsze odbywa się po cenie detalicznej.
 
