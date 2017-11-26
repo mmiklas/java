@@ -1,5 +1,10 @@
 # Lab 5.2
 
-1. Napisz program o nazwie UserCollector zarządzający (przechowuje całą kolekcję, wyświetla wybrane pozycje) obiektami typu User za pomocą unikalnych identyfikatorów. Obiekty User powinny zawierać takie właściwości jak imię, nazwisko oraz wiek. 
+1. Wczytaj do listy wszystkie wiersze książki "Hrabia Monte Christo".
+* plik z książką w formacie tekstowym (crsto10.txt) znajdziesz w SAKE
 
-2. Napisz program o nazwie ListTester pokazujący różnice w wydajności pomiędzy ArrayList'ą a LinkedList'ą przy dodawaniu elementów na końcu list o raz na ich początku. 
+2. Policz liczbę wszystkich wierszy, tworząc metodę, która przyjmuje obiekty typu List i zwraca liczbę typu int (liczba elementów listy). 
+
+3. Napisz metodę, która wyświetli na ekranie co setny wiersz książki.
+
+4. Napisz metodę, która znajdzie i wyświetli najdłuższy wers z książki wielkimi literami.
