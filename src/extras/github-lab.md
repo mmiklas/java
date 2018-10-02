@@ -37,6 +37,22 @@
 - wklej URL swojego repozytorium z GitHuba i dokonaj klonowania **Clone**
 - stwórz nowy projekt podążając za kreatorem
 
-7. Uruchom pobrane 
+7. Dokonaj zmian w swoim projekcie
+- uruchom programy java i jeżeli to konieczne dokonaj niezbędnych poprawek
+- dodaj komentarze do kodu
+- do pliku README.md dodaj grafikę
 
+8. Przeglądnij lokalną historię zmian wybranych plików
+- wybierz z menu VCS -> Local History -> Show History
+- dokonaj przeglądu zmian
+
+9. Zatwierdź zmiany i wyślij je do zdalnego repozytorium
+- wybierz z menu VCS -> VCS Operations Popoup -> Commit... lub użyj skrótu **Ctrl+K**
+- wprowadź opis **Commit Message** i zatwierdź **Commit**
+- następnie wybierz z menu VCS -> VCS Operations Popoup -> Push... lub użyj skrótu **Ctrl+Shift+K**
+- naciśnij **Push** aby wysłać pliki do zdalnego repozytorium
+
+10. Przejdź do GitHub i zweryfikuj przesłane zmiany
+
+11. Cofnij zmiany 
 
