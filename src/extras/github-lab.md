@@ -25,5 +25,11 @@
 - skorzystaj z opcji **choose your files**
 - "zakomituj" zmiany **Commit changes**
 
+5. Dodaj opis projektu do pliku README.md
+- kliknij w plik README.md
+- przejdź w tryb edycji ikoną ołówka lub naciskając **"e"**
+- Dodaj nagłówek, krótki opis oraz wypunktowaną listę nazw plików znajdujących się w repozytorium
+- zatwierdź zmiany **Commit changes**
+
 
 
