@@ -14,3 +14,16 @@
 - dodaj opcjonalny opis
 - pozostaw repozytorium jako publiczne Public
 - zaznaczając opcję inicjacji repozytorium **Initialize this repository with a README**
+
+3. Stwórz w repozytorium plik z programem w javie
+- kliknij **Create new file**
+- podaj nazwę pliku i wprowadź jego treść (może być HelloWorld.java)
+- zatwierdź zmiany przyciskiem **Commit new file**
+
+4. Załaduj kilka dodatkowych plików do repozytorium
+- za pomocą opcji **Upload files** dodaj kilka plików różnych typów (np: .java, .txt, .jpg)
+- skorzystaj z opcji **choose your files**
+- "zakomituj" zmiany **Commit changes**
+
+
+
