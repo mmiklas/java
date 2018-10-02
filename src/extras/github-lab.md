@@ -31,5 +31,12 @@
 - Dodaj nagłówek, krótki opis oraz wypunktowaną listę nazw plików znajdujących się w repozytorium
 - zatwierdź zmiany **Commit changes**
 
+6. Uruchom projekt w **IntelliJ IDEA**
+- uruchom IDE
+- wybierz opcję **Checkout from Version Controll** a następnie GIT
+- wklej URL swojego repozytorium z GitHuba i dokonaj klonowania **Clone**
+- stwórz nowy projekt podążając za kreatorem
+
+7. Uruchom pobrane 
 
 
