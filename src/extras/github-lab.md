@@ -6,6 +6,7 @@
 - dokończ działanie kreatora wybierając (domyślną) bezpłatną wersję usługi
 - sprawdź skrzynkę email i dokonaj weryfikacji adresu klikając w link **Verify email address**
 ![GitHub SignUp](./github-signup2.png "GitHub SignUp" | widh=100)
+[[ https://www.tapeciarnia.pl/tapety/normalne/224019_grafika_komputerowa_kwiaty.jpg \| height=48px]]
 
 ![](https://www.tapeciarnia.pl/tapety/normalne/224019_grafika_komputerowa_kwiaty.jpg)
 
