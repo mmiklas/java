@@ -5,7 +5,7 @@
 - wprowadź nazwę użytkownika, email oraz hasło
 - dokończ działanie kreatora wybierając (domyślną) bezpłatną wersję usługi
 - sprawdź skrzynkę email i dokonaj weryfikacji adresu klikając w link **Verify email address**
-![GitHub SignUp](./github-signup2.png =250x "GitHub SignUp")
+![GitHub SignUp](./github-signup2.png "GitHub SignUp" =100x20)
 
 2. Stwórz nowe repozytorium
 - skorzystaj z przycisku **Start project** lub **New repository**
