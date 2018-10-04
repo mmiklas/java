@@ -21,6 +21,10 @@
 - podaj nazwę pliku i wprowadź jego treść (może być HelloWorld.java)
 - zatwierdź zmiany przyciskiem **Commit new file**
 
+![Create new file](./github-create-new-file.png "Create new file")
+
+{:start="4"}
+
 4. Załaduj kilka dodatkowych plików do repozytorium
 - za pomocą opcji **Upload files** dodaj kilka plików różnych typów (np: .java, .txt, .jpg)
 - skorzystaj z opcji **choose your files**
