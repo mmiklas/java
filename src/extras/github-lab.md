@@ -8,6 +8,7 @@
 
 ![GitHub SignUp](./github-signup9.png "GitHub SignUp")
 
+{:start="2"}
 2. Stwórz nowe repozytorium
 - skorzystaj z przycisku **Start project** lub **New repository**
 - wprowadź nazwę repozytorium np. "testowe-repo"
