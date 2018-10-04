@@ -1,4 +1,4 @@
-# GitHub Lab
+# GitHub
 
 1. Załóż konto w serwisie **GitHub** (jeżeli nie posiadasz)
 - uruchom w przeglądarce stronę https://github.com
