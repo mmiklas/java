@@ -21,7 +21,7 @@
 - podaj nazwę pliku i wprowadź jego treść (może być HelloWorld.java)
 - zatwierdź zmiany przyciskiem **Commit new file**
 
-![Create new file](./github-create-file.png "Create new file")
+![Create new file](./github-create-new-file.png "Create new file")
 
 {:start="4"}
 
