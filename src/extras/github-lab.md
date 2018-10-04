@@ -41,7 +41,7 @@
 7. Dokonaj zmian w swoim projekcie
 - uruchom programy java i jeżeli to konieczne dokonaj niezbędnych poprawek
 - dodaj komentarze do kodu
-- do pliku README.md dodaj grafikę
+- do pliku **README.md** dodaj grafikę
 
 8. Przeglądnij lokalną historię zmian wybranych plików
 - wybierz z menu VCS -> Local History -> Show History
