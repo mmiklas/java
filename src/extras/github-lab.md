@@ -42,6 +42,10 @@
 - wklej URL swojego repozytorium z GitHuba i dokonaj klonowania **Clone**
 - stwórz nowy projekt podążając za kreatorem
 
+![Check out from Version Control](./intellij-checkout.png "Check out from Version Control")
+
+{:start="4"}
+
 7. Dokonaj zmian w swoim projekcie
 - uruchom programy java i jeżeli to konieczne dokonaj niezbędnych poprawek
 - dodaj komentarze do kodu
