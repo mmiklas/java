@@ -54,6 +54,3 @@
 - naciśnij **Push** aby wysłać pliki do zdalnego repozytorium
 
 10. Przejdź do GitHub i zweryfikuj przesłane zmiany
-
-11. Cofnij zmiany 
-
