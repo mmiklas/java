@@ -1,3 +1,5 @@
+# Lab 1.1
+
 1. Korzystając z narzędzi dostępnych w JDK napisz, skompiluj i uruchom pierwszy program w języku Java.
 
 ```java
