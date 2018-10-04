@@ -1,7 +1,7 @@
 # GitHub
 
 1. Załóż konto w serwisie **GitHub** (jeżeli nie posiadasz)
-- uruchom w przeglądarce stronę https://github.com
+- uruchom w przeglądarce stronę **https://github.com**
 - wprowadź nazwę użytkownika, email oraz hasło
 - dokończ działanie kreatora wybierając (domyślną) bezpłatną wersję usługi
 - sprawdź skrzynkę email i dokonaj weryfikacji adresu klikając w link **Verify email address**
