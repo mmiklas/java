@@ -3,7 +3,7 @@
 
 <ul>
     <li>
-        <div><a href="/src/chapter/githu-lab.html">GitHub</a></div>
+        <div><a href="/src/chapter/github-lab.html">GitHub</a></div>
     </li>
 </ul>
 
