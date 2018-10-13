@@ -13,7 +13,7 @@
 - skorzystaj z przycisku **Start project** lub **New repository**
 - wprowadź nazwę repozytorium np. "testowe-repo"
 - dodaj opcjonalny opis
-- pozostaw repozytorium jako publiczne Public
+- pozostaw repozytorium jako publiczne (Public)
 - zaznaczając opcję inicjacji repozytorium **Initialize this repository with a README**
 
 3. Stwórz w repozytorium plik z programem w javie

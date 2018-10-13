@@ -18,7 +18,7 @@ javac -version
 ```
 
 * Na dysku Z: utwórz za pomocą notatnika plik _HelloWorld.java_ i wpisz w nim program.
-* Korzystając z kompilatora javac, skompiluj program do bajtkodu otrzymując plik _HelloWorld.java_.
+* Korzystając z kompilatora javac, skompiluj program do bajtkodu otrzymując plik _HelloWorld.class_.
 
 ```bash
 javac HelloWorld.java
