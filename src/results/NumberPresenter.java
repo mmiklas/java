@@ -6,8 +6,10 @@ public class NumberPresenter {
     }
 
     public static void showNumber(int i) {
-        System.out.println("binarnie: " + Integer.toBinaryString(i));
-        System.out.println("ósemkowo: " + Integer.toOctalString(i));
-        System.out.println("szesnastkowo: " + Integer.toHexString(i));
+        System.out.println("dziesiętnie: \t" + i);
+        System.out.println("------------------------");
+        System.out.println("binarnie: \t\t" + Integer.toBinaryString(i));
+        System.out.println("ósemkowo: \t\t" + Integer.toOctalString(i));
+        System.out.println("szesnastkowo: \t" + Integer.toHexString(i));
     }
 }

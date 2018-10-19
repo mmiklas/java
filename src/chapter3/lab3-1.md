@@ -4,4 +4,4 @@
 
 2. Napisz program, który wyświetla dwie liczby i używa operatorów / i %, aby wyświetlić wynik dzielenia i resztę z dzielenia. Użyj kodu wyjścia \t, aby wstawić znak tabulacji między wynikiem i resztą z dzielenia.
 
-3. Napisz program pozwalający sumować wartość bilonu, np. gdy chcemy policzyć wartość 1000 monet 10 gr. Ze względu na operacje walutowe zastosuj typ BigDecimal.
+3. Napisz program wyświetlający liczbę dziesiętną w systemie dwójkowym, ósemkowym i szesnastkowym. Wykorzystaj statyczne metody klasy Integer.
