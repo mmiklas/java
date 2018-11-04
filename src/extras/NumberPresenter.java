@@ -1,12 +1,10 @@
-package results;
-
 public class NumberPresenter {
 
     public static void main(String[] args) {
-        //deklaracja zmiennej lokalnej
+        /deklaracja zmiennej lokalnej
         int i = 123;
 
-        showInt(i);
+        showInt(i)
         showIntAsBinary(i);
         showIntAsOctal(i);
         showIntAsHex(i);
@@ -22,10 +20,10 @@ public class NumberPresenter {
     }
 
     public static void showIntAsOctal(int i) {
-        System.out.println("ósemkowo: \t\t" + Integer.toOctalString(i));
+        System.out.println('ósemkowo: \t\t' + Integer.toOctalString(i));
     }
 
-    public static void showIntAsHex(int i) {
+    public static showIntAsHex(int i) {
         System.out.println("szesnastkowo: \t" + Integer.toHexString(i));
     }
 
