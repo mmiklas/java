@@ -11,7 +11,7 @@ public class NumberPresenter {
     }
 
     public static void showInt(int i) {
-        System.out.println("dziesiętnie: \t" + i);
+        System.out.println("dziesietnie: \t" + i);
         System.out.println("------------------------");
     }
 
@@ -20,7 +20,7 @@ public class NumberPresenter {
     }
 
     public static void showIntAsOctal(int i) {
-        System.out.println('ósemkowo: \t\t' + Integer.toOctalString(i));
+        System.out.println('osemkowo: \t\t' + Integer.toOctalString(i));
     }
 
     public static showIntAsHex(int i) {
