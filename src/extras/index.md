@@ -8,6 +8,9 @@
     <li>
         <div><a href="/src/extras/github-lab.html">GitHub</a></div>
     </li>
+    <li>
+        <div><a href="/src/extras/sql1.html">SQL Lab 1</a></div>
+    </li>
 </ul>
 
 ## Java files
