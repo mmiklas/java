@@ -1,6 +1,6 @@
 Na podstawie diagramu oraz poniższych wytycznych utwórz w swojej bazie strukturę forum i wypełnij ją danymi testowymi.
 
-![](sql2_forum.jpg)
+[![](sql2_forum.jpg)](sql2_forum.jpg)
 
 1. Schema - utwórz w swojej bazie (nazwa bazy to Twój login) schemat o nazwie Forum.
 2. Utwórz w schemacie Forum poniższe tabele:
