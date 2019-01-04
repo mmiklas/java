@@ -1,3 +1,5 @@
+# SQL Lab 2
+
 Na podstawie diagramu oraz poniższych wytycznych utwórz w swojej bazie strukturę forum i wypełnij ją danymi testowymi.
 
 [![](sql2_forum.jpg)](sql2_forum.jpg)
@@ -17,9 +19,36 @@ UserStats | Data i czas wyświetlenia każdego z postów przez każdego z użytk
 
 Nazwa tabeli | Nazwa kolumny Powiązana  | tabela i kolumna
 -------------|--------------------------|------------------
-<td rowspan=3>Topics | ParentID | Topics.ID
+Topics | ParentID | Topics.ID
 | AuthorID | Users.ID
 | ClueID | Clues.ID
 UsersStats | UserID | Users.ID
 | TopicID | Topics.ID
 UsersLogins | UserID  | Users.ID
+
+4. Wartości domyślne
+
+Nazwa tabeli | Nazwa kolumny | Wartość/wyrażenie default
+-------------|---------------|------------------------------------
+Topics | CreateTime | Aktualny czas (funkcja GETDATE)
+Users | RegisterTime |
+UserStats | Times
+UsersLogins | LoginTime
+Clues | TopicsCnt  | 0
+Users | ForumPostsCnt | 0
+Topics | ViewsCnt | 0
+Topics | AnswersCnt | 0
+
+5. Ograniczenia typu CHECK
+
+Nazwa tabeli | Nazwa kolumny | Definicja Check
+-------------|---------------|-----------------
+Users | EmailAddress | Validate e-mail address (for example: CHARINDEX('@',EmailAddress) <> 0)
+
+6. Dane testowe
+
+[sql2_forum_dane_testowe.sql](sql2_forum_dane_testowe.sql)
+
+7. Widoki
+
+[sql2_forum_widoki.sql](sql2_forum_widoki.sql)
