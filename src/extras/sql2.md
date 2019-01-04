@@ -17,7 +17,7 @@ UserStats | Data i czas wyświetlenia każdego z postów przez każdego z użytk
 
 Nazwa tabeli | Nazwa kolumny Powiązana  | tabela i kolumna
 -------------|--------------------------|------------------
-Topics | ParentID | Topics.ID
+<td rowspan=3>Topics | ParentID | Topics.ID
 | AuthorID | Users.ID
 | ClueID | Clues.ID
 UsersStats | UserID | Users.ID
