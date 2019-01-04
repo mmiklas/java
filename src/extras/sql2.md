@@ -2,10 +2,14 @@
 
 Na podstawie diagramu oraz poniższych wytycznych utwórz w swojej bazie strukturę forum i wypełnij ją danymi testowymi.
 
+## Diagram ##
 [![](sql2_forum.jpg)](sql2_forum.jpg)
 
-1. Schemat - utwórz w swojej bazie (nazwa bazy to Twój login) schemat o nazwie Forum.
-2. Tabele - utwórz w schemacie Forum poniższe tabele:
+## Schemat ##
+Utwórz w swojej bazie (nazwa bazy to Twój login) schemat o nazwie Forum.
+
+## Tabele ##
+Utwórz w schemacie Forum poniższe tabele:
 
 Nazwa tabeli | Opis 
 -------------|-------------------------------------
@@ -15,7 +19,8 @@ Users | Lista zarejestrowanych użytkowników, którzy mogą pisać posty.
 UsersLogins | Data i czas wraz z adresem IP dla każdego logowania na forum. Historia logowań.
 UserStats | Data i czas wyświetlenia każdego z postów przez każdego z użytkowników. Na podstawie tej tabeli widać czy użytkownik X otwierał już poszczególne posty i odpowiednio wyróżnić nieprzeczytane (nowe).
 
-3. Klucze obce
+## Klucze obce ##
+Dodaj do tabel klucze obce wg schematu:
 
 Nazwa tabeli | Nazwa kolumny Powiązana  | tabela i kolumna
 -------------|--------------------------|------------------
@@ -26,7 +31,8 @@ UsersStats | UserID | Users.ID
 | TopicID | Topics.ID
 UsersLogins | UserID  | Users.ID
 
-4. Wartości domyślne
+## Wartości domyślne ##
+Zdefiniuj wartości domyślme wg wytycznych z poniższej tabeli:
 
 Nazwa tabeli | Nazwa kolumny | Wartość/wyrażenie default
 -------------|---------------|------------------------------------
@@ -39,16 +45,19 @@ Users | ForumPostsCnt | 0
 Topics | ViewsCnt | 0
 Topics | AnswersCnt | 0
 
-5. Ograniczenia typu CHECK
+## Ograniczenia typu CHECK ##
+Dodaj ograniczenie:
 
 Nazwa tabeli | Nazwa kolumny | Definicja Check
 -------------|---------------|-----------------
 Users | EmailAddress | Validate e-mail address (for example: CHARINDEX('@',EmailAddress) <> 0)
 
-6. Dane testowe
+## Dane testowe ##
+Skorzystaj z zamieszczonego poniżej skryptu i uzupełnij stworzoną strukturę danymi testowymi.
 
 [sql2_forum_dane_testowe.sql](sql2_forum_dane_testowe.sql)
 
-7. Widoki
+## Widoki ##
+Utwórz dodatkowe widoki korzystając z przygotowanego poniżej skryptu.
 
 [sql2_forum_widoki.sql](sql2_forum_widoki.sql)
