@@ -20,7 +20,7 @@ public class Checkers {
         //klasa BigInteger z pakietu math radzi sobie z takimi dużymi liczbami
         BigInteger bigSum = new BigInteger("0");
         BigInteger bigLast = new BigInteger("1");
-        System.out.println("Rrzyklad wykorzystania typu obiektowego BigInteger");
+        System.out.println("Przyklad wykorzystania typu obiektowego BigInteger");
         for (int j = 0; j < 65 ; j++) {
             bigSum = bigSum.add(bigLast);
             System.out.println("nr pola: "+ j + ", ziarna na polu: " + bigLast + ", suma wszystkich ziaren: " + bigSum);
