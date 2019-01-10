@@ -18,7 +18,7 @@
         <div><a href="/src/extras/sql2.html">SQL Lab 2</a></div>
     </li>
     <li>
-        <div><a href="/src/extras/sql2.html">SQL Lab 2</a></div>
+        <div><a href="/src/extras/sql3.html">SQL Lab 3</a></div>
     </li>
 </ul>
 

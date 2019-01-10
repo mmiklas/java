@@ -1,8 +1,4 @@
-USE Dydaktyka_ProgBD
-GO
-
-
--- iloœæ postów w w¹tkach
+-- iloï¿½ï¿½ postï¿½w w wï¿½tkach
 CREATE VIEW Forum.vClues
 AS
 SELECT c.ID, c.Name, c.Descript, COUNT(t.ID) AS TopicsCnt
@@ -15,7 +11,7 @@ SELECT * FROM Forum.vClues
 GO
 
 
--- w¹tki (bez odpowiedzi) wraz z danymi autorów
+-- wï¿½tki (bez odpowiedzi) wraz z danymi autorï¿½w
 CREATE VIEW Forum.vTopics
 AS
 SELECT
@@ -35,7 +31,7 @@ SELECT * FROM Forum.vTopics WHERE ClueID = 1
 GO
 
 
--- przyk³ad podzapytania
+-- przykï¿½ad podzapytania
 SELECT
 	t.ID,
 	t.TopicSubject,
@@ -45,7 +41,7 @@ FROM Forum.Topics AS t
 GO
 
 
--- w¹tki, autorzy, liczba, czas i autor ostatniej odpowiedzi
+-- wï¿½tki, autorzy, liczba, czas i autor ostatniej odpowiedzi
 CREATE VIEW Forum.vTopicsExtended
 AS
 SELECT
