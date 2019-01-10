@@ -17,7 +17,7 @@ Topics  | Każdy temat/post utworzony w forum jest przechowywany w tej tabeli. K
 Clues | Działy forum, w których można pisać posty.|
 Users | Lista zarejestrowanych użytkowników, którzy mogą pisać posty.
 UsersLogins | Data i czas wraz z adresem IP dla każdego logowania na forum. Historia logowań.
-UserStats | Data i czas wyświetlenia każdego z postów przez każdego z użytkowników. Na podstawie tej tabeli widać czy użytkownik X otwierał już poszczególne posty i odpowiednio wyróżnić nieprzeczytane (nowe).
+UserStats | Data i czas wyświetlenia każdego z postów przez każdego z użytkowników. Na podstawie tej tabeli widać czy użytkownik X otwierał już poszczególne posty i można odpowiednio wyróżnić nieprzeczytane (nowe).
 
 ## Klucze obce ##
 Dodaj do tabel klucze obce wg schematu:
