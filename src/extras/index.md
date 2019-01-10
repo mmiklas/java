@@ -17,6 +17,9 @@
     <li>
         <div><a href="/src/extras/sql2.html">SQL Lab 2</a></div>
     </li>
+    <li>
+        <div><a href="/src/extras/sql2.html">SQL Lab 2</a></div>
+    </li>
 </ul>
 
 ## Java files
