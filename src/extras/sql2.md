@@ -27,7 +27,7 @@ Nazwa tabeli | Nazwa kolumny Powiązana  | tabela i kolumna
 Topics | ParentID | Topics.ID
 | AuthorID | Users.ID
 | ClueID | Clues.ID
-UsersStats | UserID | Users.ID
+UserStats | UserID | Users.ID
 | TopicID | Topics.ID
 UsersLogins | UserID  | Users.ID
 
