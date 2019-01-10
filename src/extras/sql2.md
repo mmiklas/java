@@ -37,9 +37,9 @@ Zdefiniuj wartości domyślme wg wytycznych z poniższej tabeli:
 Nazwa tabeli | Nazwa kolumny | Wartość/wyrażenie default
 -------------|---------------|------------------------------------
 Topics | CreateTime | Aktualny czas (funkcja GETDATE)
-Users | RegisterTime |
-UserStats | Times
-UsersLogins | LoginTime
+Users | RegisterTime | Aktualny czas (funkcja GETDATE)
+UserStats | Times | Aktualny czas (funkcja GETDATE)
+UsersLogins | LoginTime | Aktualny czas (funkcja GETDATE)
 Clues | TopicsCnt  | 0
 Users | ForumPostsCnt | 0
 Topics | ViewsCnt | 0
