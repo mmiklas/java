@@ -1,7 +1,7 @@
 # Lab 5.2
 
 1. Wczytaj do listy wszystkie wiersze książki "Hrabia Monte Christo".
-* plik z książką w formacie tekstowym (crsto10.txt) znajdziesz poniżej
+* plik z książką w formacie tekstowym [crsto10.txt](src/crsto10.txt)
 
 2. Wyznacz liczbę wszystkich wierszy, tworząc metodę, która przyjmuje obiekty typu List i zwraca liczbę typu int (liczba elementów listy). 
 
@@ -9,5 +9,3 @@
 
 4. Napisz metodę, która znajdzie i wyświetli najdłuższy wers z książki wielkimi literami.
 
-# Others
-[crsto10.txt](src/crsto10.txt)
