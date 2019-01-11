@@ -8,3 +8,6 @@
 3. Napisz metodę, która wyświetli na ekranie co setny wiersz książki.
 
 4. Napisz metodę, która znajdzie i wyświetli najdłuższy wers z książki wielkimi literami.
+
+# Others
+[crsto10.txt](src/crsto10.txt)
