@@ -1,9 +1,9 @@
 # Lab 5.2
 
 1. Wczytaj do listy wszystkie wiersze książki "Hrabia Monte Christo".
-* plik z książką w formacie tekstowym (crsto10.txt) znajdziesz w SAKE
+* plik z książką w formacie tekstowym (crsto10.txt) znajdziesz poniżej
 
-2. Policz liczbę wszystkich wierszy, tworząc metodę, która przyjmuje obiekty typu List i zwraca liczbę typu int (liczba elementów listy). 
+2. Wyznacz liczbę wszystkich wierszy, tworząc metodę, która przyjmuje obiekty typu List i zwraca liczbę typu int (liczba elementów listy). 
 
 3. Napisz metodę, która wyświetli na ekranie co setny wiersz książki.
 
