@@ -1,7 +1,7 @@
 # Lab 5.2
 
 1. Wczytaj do listy wszystkie wiersze książki "Hrabia Monte Christo".
-* plik z książką w formacie tekstowym [crsto10.txt](src/crsto10.txt)
+* plik z książką w formacie tekstowym [crsto10.txt](../crsto10.txt)
 
 2. Wyznacz liczbę wszystkich wierszy, tworząc metodę, która przyjmuje obiekty typu List i zwraca liczbę typu int (liczba elementów listy). 
 
