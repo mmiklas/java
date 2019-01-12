@@ -6,6 +6,7 @@
 3. Suma wartości w kolumnie TotalDue dla wszystkich zamówień złożonych w 2001 przez klienta 442
 
 ## GROUP BY ## 
+{:start="4"}
 4. Suma wartości w kolumnie TotalDue dla wszystkich zamówień, zgrupowane wg roku.
 Wyświetl 2 kolumny: RokZamowienia (posortuj rosnąco) | SumaOplat
 5. Suma wartości w kolumnie TotalDue dla zamówień złożonych w 2002, pogrupowane wg klientów
@@ -14,10 +15,12 @@ Wyświetl 2 kolumny: KlientID (posortuj rosnąco) | SumaOplat
 …zamówienia złożone pomiędzy 1 maja 2003, a 6 maja 2003
 
 ## HAVING ## 
+{:start="7"}
 7. Zmodyfikuj zapytanie 6:
 ... dla których SumaOplat jest większa niż 40 000, posortuj wg SumaOplat Sales.SalesOrderHeader.
 
 ## INNER JOIN ##
+{:start="8"}
 8. Wyświetl produkty wraz z podkategoriami (wszystkie kolumny)
 Połącz tabelę Production.Product z Production.ProductSubcategory.
 9. Zmodyfikuj zapytanie 8:
@@ -34,6 +37,7 @@ Wyświetl ID klienta oraz ID złożonych przez niego zamówień
 Wyznacz liczbę złożonych wierszy.
 
 ## OUTER JOIN ##
+{:start="13"}
 13. Zmodyfikuj zapytanie 12:
 Zamień złączenie INNER JOIN na LEFT OUTER JOIN żeby wyświetlić wszystkich klientów, a nie tylko tych,
 którzy złożyli jakieś zamówienia.
