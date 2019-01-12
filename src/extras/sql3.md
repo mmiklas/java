@@ -1,11 +1,11 @@
 # SQL Lab 3
 
-## Funkcje agregujące ##
+Funkcje agregujące
 1. Liczba wierszy w tabeli Sales.SalesOrderHeader.
 2. Suma wartości w kolumnie TotalDue dla wszystkich zamówień złożonych w 2001.
 3. Suma wartości w kolumnie TotalDue dla wszystkich zamówień złożonych w 2001 przez klienta 442.
 
-## GROUP BY ## 
+GROUP BY
 {:start="4"}
 4. Suma wartości w kolumnie TotalDue dla wszystkich zamówień, zgrupowane wg roku.
 Wyświetl 2 kolumny: RokZamowienia (posortuj rosnąco) | SumaOplat.
