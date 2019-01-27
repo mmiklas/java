@@ -22,12 +22,4 @@ Posortowane wg nazwy podkategorii, oraz nazwy produktu rosnąco.
 11. Zmodyfikuj zapytanie 10:
 Dodaj trzecią tabelę Production.ProductCategory.
 Wyświetl w wyniku dodatkowo nazwę kategorii - jako pierwszą kolumnę.
-12. Tabele: Sales.Customer, Sales.SalesOrderHeader.
-Wyświetl ID klienta oraz ID złożonych przez niego zamówień
-Wyznacz liczbę złożonych wierszy.
-13. Zmodyfikuj zapytanie 12:
-Zamień złączenie INNER JOIN na LEFT OUTER JOIN, żeby wyświetlić wszystkich klientów, a nie tylko tych,
-którzy złożyli jakieś zamówienia.
-14. Zmodyfikuj zapytanie 13:
-Dodaj warunek filtrujący WHERE, aby ograniczyć wynik tylko do klientów, którzy nie złożyli żadnego
-zamówienia.
+
