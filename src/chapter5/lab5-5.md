@@ -1,4 +1,4 @@
-# Lab 5.3
+# Lab 5.5
 
 1. Napisz program o nazwie UserCollector zarządzający (przechowuje całą kolekcję, wyświetla wybrane pozycje) obiektami typu User za pomocą unikalnych identyfikatorów. Obiekty User powinny zawierać takie właściwości jak imię, nazwisko oraz wiek. 
 
