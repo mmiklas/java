@@ -1,5 +1,6 @@
 # Lab 6.1
 
-1. Podaj ile razy występuje słowo "Alice" w książce "Alicja w Krainie Czarów".
-* plik z książką w formacie tekstowym (alice30.txt) znajdziesz w SAKE 
-* dokonaj obliczeń także ignorując wielkość znaków
+1. Napisz program, który korzystając z bazy danych AdventureWorks wyświetli następujące informacje:
+* 10-ciu pierwszych pracowników, którzy mają na nazwisko „Anderson”
+* listę stanowisk w firmie (JobTitle)
+* ile zamówień złożył każdy z klientów sortując po liczbie zamówień malejąco
