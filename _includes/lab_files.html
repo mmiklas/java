@@ -6,6 +6,7 @@
 <ul>
     {% for page in site.pages %}
     {% assign dir2 = file.path | slice: 0, moduleNameSize  %}
+    {{page.url}}
     {% assign labNumber = page.url | slice: 19, 1 %}
     {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
     {% assign labFileSrc = page.url | remove: dir %}
