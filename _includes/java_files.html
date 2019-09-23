@@ -3,7 +3,8 @@
 {{ dir  }}
 <ul>
     {% for file in site.static_files %}
-    {% assign dir2 = file.path | slice: 0, 14 %}
+    {% assign dir2 = file.path | slice: 0, 50 %}
+    {{ dir2  }}
     {% if dir2 == dir and file.extname == '.java' %}
     <li>
         <div><a href="{{file.path}}">{{file.path | remove: dir}}</a></div>
