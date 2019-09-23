@@ -1,5 +1,5 @@
 ## Java files
-{% assign dir = '/src/chapter' | append: chapterNumber | append: '/' %}
+{% assign dir = '/' | append: moduleName | append: 'src' | append: '/' %}
 <ul>
     {% for file in site.static_files %}
     {% assign dir2 = file.path | slice: 0, 14 %}
