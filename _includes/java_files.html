@@ -1,6 +1,6 @@
 ## Java files
 {% assign dir = moduleName | append: 'src' | append: '/' %}
-{% assign moduleNameSize = moduleName | size %}
+{% assign moduleNameSize = moduleName | append: 'src/' | size %}
 <ul>
     {% for file in site.static_files %}
 
