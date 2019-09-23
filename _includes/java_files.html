@@ -1,12 +1,9 @@
-## Java files
+## Pliki .java
 {% assign dir = moduleName | append: 'src' | append: '/' %}
 {% assign moduleNameSize = moduleName | append: 'src/' | size %}
 <ul>
     {% for file in site.static_files %}
-
-
     {% assign dir2 = file.path | slice: 0, moduleNameSize  %}
-    {{ dir2  }}
     {% if dir2 == dir and file.extname == '.java' %}
     <li>
         <div><a href="{{file.path}}">{{file.path | remove: dir}}</a></div>
