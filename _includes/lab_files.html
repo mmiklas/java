@@ -1,9 +1,11 @@
-## Labs
+## Laboratoria
 
-{% assign dir = '/src/chapter' | append: chapterNumber | append: '/' %}
+{% assign dir = moduleName | append: 'src' | append: '/' %}
+{% assign moduleNameSize = moduleName | append: 'src/' | size %}
+
 <ul>
     {% for page in site.pages %}
-    {% assign dir2 = page.url | slice: 0, 14 %}
+    {% assign dir2 = file.path | slice: 0, moduleNameSize  %}
     {% assign labNumber = page.url | slice: 19, 1 %}
     {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
     {% assign labFileSrc = page.url | remove: dir %}
