@@ -6,15 +6,15 @@ public class Stopwatch {
     private long stopTime;
 
     public void start() {
-        startTime=System.currentTimeMillis();
+        startTime = System.currentTimeMillis();
     }
 
     public void stop() {
-        stopTime= System.currentTimeMillis();
+        stopTime = System.currentTimeMillis();
     }
 
     public void showResult(String label) {
-        if (label!=null) {
+        if (label != null) {
             System.out.print(label + ": ");
         }
         System.out.println("czas " + (stopTime - startTime) + " ms");

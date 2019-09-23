@@ -4,13 +4,14 @@ import java.util.Random;
 
 public class JackPot {
     public static final int BETS_NUMBER = 1_000;
+
     public static void main(String[] args) {
 
         Random random = new Random(999999999L);
         Bet[] bets = new Bet[BETS_NUMBER];
-        Bet jackPot = new Bet(7,7,7);
+        Bet jackPot = new Bet(7, 7, 7);
 
-        for (int i = 0; i < bets.length ; i++) {
+        for (int i = 0; i < bets.length; i++) {
             bets[i] = new Bet(random);
         }
 

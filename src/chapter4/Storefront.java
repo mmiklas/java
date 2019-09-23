@@ -1,12 +1,13 @@
 package chapter4;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedList;
 
 public class Storefront {
     private LinkedList catalog = new LinkedList();
 
     public void addItem(String id, String name, String price,
-        String quant) {
+                        String quant) {
 
         Item it = new Item(id, name, price, quant);
         catalog.add(it);

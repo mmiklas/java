@@ -10,7 +10,7 @@ class Averager {
             }
             System.out.println("Suma wynosi: " + sum);
             System.out.println("Średnia wynosi: " +
-                (float) sum / arguments.length);
+                    (float) sum / arguments.length);
         }
     }
 }

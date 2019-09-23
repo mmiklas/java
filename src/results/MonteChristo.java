@@ -11,7 +11,7 @@ public class MonteChristo {
         MonteChristo monteChristo = new MonteChristo();
         List<String> allLines = monteChristo.loadTextFile("src/crsto10.txt");
 
-        if (allLines!= null && !allLines.isEmpty()) {
+        if (allLines != null && !allLines.isEmpty()) {
             System.out.println("Wczytany plik zawiera " + monteChristo.countLines(allLines) + " linii");
             monteChristo.showEveryHundredthLine(allLines);
             monteChristo.showTheLongestVerse(allLines);
@@ -52,7 +52,6 @@ public class MonteChristo {
 
         System.out.println("\nNajdłuższy wiersz w książce zawiera " + longestLine.length() + " znaki/ków - " + longestLine.toUpperCase());
     }
-
 
 
 }

@@ -14,7 +14,7 @@ class Birthday {
         System.out.println("Rok: " + year);
 
         //another approach
-        StringTokenizer st = new StringTokenizer(birthday,"/");
+        StringTokenizer st = new StringTokenizer(birthday, "/");
         System.out.println("\nUrodziny: " + birthday);
         System.out.println("Dzień: " + st.nextToken());
         System.out.println("Miesiąc: " + st.nextToken());

@@ -7,7 +7,7 @@ public class ArrayListDataStructure implements DataStructure {
 
     private int max;
     private int tmp;
-    private List<Integer>  arrList;
+    private List<Integer> arrList;
 
     public ArrayListDataStructure(int max) {
         this.max = max;

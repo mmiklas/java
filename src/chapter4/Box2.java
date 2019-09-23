@@ -1,6 +1,6 @@
 package chapter4;
 
-import java.awt.Point;
+import java.awt.*;
 
 class Box2 {
     int x1 = 0;
@@ -17,12 +17,12 @@ class Box2 {
 
     Box2(Point topLeft, Point bottomRight) {
         this(topLeft.x, topLeft.y, bottomRight.x,
-            bottomRight.y);
+                bottomRight.y);
     }
 
     Box2(Point topLeft, int w, int h) {
         this(topLeft.x, topLeft.y, topLeft.x + w,
-            topLeft.y + h);
+                topLeft.y + h);
     }
 
     void printBox() {
@@ -34,17 +34,17 @@ class Box2 {
         Box2 rect;
 
         System.out.println("Wywołanie Box2 ze współrzędnymi "
-            + "(25,25) i (50,50):");
+                + "(25,25) i (50,50):");
         rect = new Box2(25, 25, 50, 50);
         rect.printBox();
 
         System.out.println("\nWywołanie Box2 z punktami "
-            + "(10,10) i (20,20):");
+                + "(10,10) i (20,20):");
         rect = new Box2(new Point(10, 10), new Point(20, 20));
         rect.printBox();
 
         System.out.println("\nWywołanie Box2 z 1 punktem "
-            + "(10,10), szerokość 50 i wysokość 50:");
+                + "(10,10), szerokość 50 i wysokość 50:");
         rect = new Box2(new Point(10, 10), 50, 50);
         rect.printBox();
 

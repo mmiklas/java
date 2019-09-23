@@ -1,6 +1,6 @@
 package chapter4;
 
-import java.awt.Point;
+import java.awt.*;
 
 class Box {
     int x1 = 0;
@@ -28,11 +28,11 @@ class Box {
         x1 = topLeft.x;
         y1 = topLeft.y;
         x2 = (x1 + w);
-        y2 = (y1 + h); 
+        y2 = (y1 + h);
         return this;
     }
 
-    void printBox(){
+    void printBox() {
         System.out.print("Box: <" + x1 + ", " + y1);
         System.out.println(", " + x2 + ", " + y2 + ">");
     }
@@ -41,19 +41,19 @@ class Box {
         Box rect = new Box();
 
         System.out.println("Wywołanie buildBox ze "
-            + "współrzędnymi (25,25) i (50,50):");
+                + "współrzędnymi (25,25) i (50,50):");
         rect.buildBox(25, 25, 50, 50);
         rect.printBox();
 
         System.out.println("\nWywołanie buildBox z "
-            + "punktami (10,10) i (20,20):");
+                + "punktami (10,10) i (20,20):");
         rect.buildBox(new Point(10, 10), new Point(20, 20));
         rect.printBox();
 
         System.out.println("\nWywołanie buildBox z "
-            + "punktem (10,10), szerokością 50 i wysokością 50:");
+                + "punktem (10,10), szerokością 50 i wysokością 50:");
 
         rect.buildBox(new Point(10, 10), 50, 50);
         rect.printBox();
-   }
+    }
 }

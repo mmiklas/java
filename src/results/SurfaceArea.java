@@ -6,7 +6,7 @@ public class SurfaceArea {
         Figure[] figures = new Figure[4];
         figures[0] = new Triangle(1, 3);
         figures[1] = new Square(2);
-        figures[2] = new Rectangle(2,5);
+        figures[2] = new Rectangle(2, 5);
         figures[3] = new Square(5);
 
         for (Figure figure : figures) {

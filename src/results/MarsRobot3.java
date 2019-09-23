@@ -9,8 +9,8 @@ public class MarsRobot3 {
         status = inStatus;
         speed = inSpeed;
         temperature = inTemperature;
-    }    
-    
+    }
+
     void checkTemperature() {
         if (temperature < -80) {
             status = "powrót do domu";
@@ -23,7 +23,7 @@ public class MarsRobot3 {
         System.out.println("Prędkość: " + speed);
         System.out.println("Temperatura: " + temperature);
     }
-    
+
     public static void main(String[] arguments) {
         MarsRobot3 spirit = new MarsRobot3("eksploracja", 2, -80);
 

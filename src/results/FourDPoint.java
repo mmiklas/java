@@ -1,13 +1,13 @@
 package results;
 
-import java.awt.Point;
- 
+import java.awt.*;
+
 class FourDPoint extends Point {
     int z;
     int t;
 
     FourDPoint(int x, int y, int inZ, int inT) {
-        super(x,y);
+        super(x, y);
         this.z = inZ;
         this.t = inT;
     }

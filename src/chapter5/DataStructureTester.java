@@ -28,7 +28,7 @@ public class DataStructureTester {
         dst.readTest(linkedListDataStructure, "read LinkedList");
     }
 
-    private void  createTest(DataStructure dataStructure, String label) {
+    private void createTest(DataStructure dataStructure, String label) {
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.start();
         dataStructure.create();

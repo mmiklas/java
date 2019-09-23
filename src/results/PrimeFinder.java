@@ -3,15 +3,15 @@ package results;
 /**
  * Created by miki on 25.11.17.
  */
-public class PrimeFinder implements Runnable  {
+public class PrimeFinder implements Runnable {
 
     public long target;
     public long prime;
     public boolean finished = false;
     private Thread runner;
 
-    public PrimeFinder(long inTarget) throws NegativeNumberException{
-        if (inTarget<0) {
+    public PrimeFinder(long inTarget) throws NegativeNumberException {
+        if (inTarget < 0) {
             throw new NegativeNumberException("Podano liczbę ujemną");
         }
         target = inTarget;

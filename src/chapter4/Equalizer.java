@@ -12,7 +12,7 @@ public class Equalizer {
         System.out.println("Czy obiekty są referencyjnie równe: " + (a == b));
         System.out.println("Czy obiekty są strukturalnie równe: " + a.equals(b));
 
-        for (int i = 0; i < 1_000_000 ; i++) {
+        for (int i = 0; i < 1_000_000; i++) {
             if (!a.equals(b)) {
                 System.out.println("Mamy cię!");
                 break;
@@ -23,6 +23,7 @@ public class Equalizer {
 
 class Manager extends Employee {
     int salaryBonus;
+
     public Manager(String name, int age, int salary, int salaryBonus) {
         super(name, age, salary);
         this.salaryBonus = salaryBonus;
@@ -33,7 +34,7 @@ class Manager extends Employee {
         if (!super.equals(obj)) {
             return false;
         }
-        Manager manager = (Manager)obj;
+        Manager manager = (Manager) obj;
         return this.salaryBonus == manager.salaryBonus;
     }
 }
@@ -67,7 +68,7 @@ class Employee {
             return false;
         }
 
-        Employee employee = (Employee)obj;
+        Employee employee = (Employee) obj;
 
         if (!(this.age == employee.age && this.salary == employee.salary)) {
             return false;

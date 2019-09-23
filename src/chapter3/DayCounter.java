@@ -9,7 +9,7 @@ class DayCounter {
         if (arguments.length > 1)
             yearIn = Integer.parseInt(arguments[1]);
         System.out.println(monthIn + "/" + yearIn + " ma "
-            + countDays(monthIn, yearIn) + " dni.");
+                + countDays(monthIn, yearIn) + " dni.");
     }
 
     static int countDays(int month, int year) {

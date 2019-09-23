@@ -43,12 +43,12 @@ public class ArrayFiller {
         int[] tmp = new int[arr.length];
 
         //kopiowanie tablicy
-        for (int i = 0; i < arr.length ; i++) {
+        for (int i = 0; i < arr.length; i++) {
             tmp[i] = arr[i];
         }
 
         //odwracanie tablicy
-        for (int i = 0; i < arr.length ; i++) {
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = tmp[arr.length - 1 - i];
         }
     }

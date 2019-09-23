@@ -19,7 +19,7 @@ public class Item implements Comparable {
             price = retail * .6D;
         else
             price = retail * .7D;
-        price = Math.floor( price * 100 + .5 ) / 100;
+        price = Math.floor(price * 100 + .5) / 100;
     }
 
     public int compareTo(Object obj) {

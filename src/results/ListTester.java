@@ -31,15 +31,15 @@ public class ListTester {
         sw.start();
         addElement(list, NUMBER_ELEMENTS, ELEMENT, isAddToHead);
         sw.stop();
-        sw.showResult(buildMessage(list.getClass().getSimpleName(),isAddToHead));
+        sw.showResult(buildMessage(list.getClass().getSimpleName(), isAddToHead));
     }
 
     private void test(List list) {
         test(list, false);
     }
 
-    private void  addElement(List list, int numberElements, Object elementToAdd, boolean isAddToHead) {
-        for (int i = 0; i < numberElements ; i++) {
+    private void addElement(List list, int numberElements, Object elementToAdd, boolean isAddToHead) {
+        for (int i = 0; i < numberElements; i++) {
             if (isAddToHead) {
                 list.add(0, elementToAdd);
             } else {

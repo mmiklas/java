@@ -17,14 +17,14 @@ public class ArrayDataStructure implements DataStructure {
 
     @Override
     public void save() {
-        for (int i = 0; i < max ; i++) {
-            arr[i]=DataStructure.INT_NUMBER;
+        for (int i = 0; i < max; i++) {
+            arr[i] = DataStructure.INT_NUMBER;
         }
     }
 
     @Override
     public void read() {
-        for (int i = 0; i < max ; i++) {
+        for (int i = 0; i < max; i++) {
             tmp = arr[i];
         }
     }

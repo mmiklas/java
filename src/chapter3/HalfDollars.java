@@ -2,7 +2,7 @@ package chapter3;
 
 class HalfDollars {
     public static void main(String[] arguments) {
-        int[] denver = { 1_700_000, 4_600_000, 2_100_000 };
+        int[] denver = {1_700_000, 4_600_000, 2_100_000};
         int[] philadelphia = new int[denver.length];
         int[] total = new int[denver.length];
         int average;

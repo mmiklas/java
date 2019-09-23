@@ -7,10 +7,14 @@ public class Zoo {
     }
 }
 
-class Animal {}
+class Animal {
+}
 
-interface Voice {}
+interface Voice {
+}
 
-class Cat extends Animal implements Voice {}
+class Cat extends Animal implements Voice {
+}
 
-class Dog extends Animal implements Voice {}
+class Dog extends Animal implements Voice {
+}
