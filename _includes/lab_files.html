@@ -1,23 +1,25 @@
 ## Laboratoria
 
-{% assign dir = moduleName | append: '/' %}
+{% assign dir = moduleName %}
 {% assign moduleNameSize = moduleName | size %}
 
 <ul>
     {% for page in site.pages %}
-    {% assign dir2 = file.path | slice: 0, moduleNameSize  %}
-    {% assign labFileName = page.url | split: "/" %}
-    {{page.url}} - {{moduleNameSize}} - {{dir}} - {{dir2}} - {{labFileName[2]}}<br>
+        {% assign pageUrl = page.url | split: "/" %}
+        {{page.url}} - {{pageUrl[2]}}<br>
 
-    {% assign labNumber = page.url | slice: 19, 1 %}
-    {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
-    {% assign labFileSrc = page.url | remove: dir %}
-    {% assign prefix = labFileSrc | slice: 0, 3 %}
-    {% if dir2 == dir and prefix == 'lab' %}
-    <li>
-        <div><a href="{{labFileSrc}}">{{labName}}</a></div>
-        <div><a href="{{moduleName}}{{labFileName[2]}}">{{labFileName[2]}}</a></div>
-    </li>
-    {% endif %}
+        {% assign labNumber = page.url | slice: 19, 1 %}
+        {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
+        {% assign labFileSrc = page.url | remove: dir %}
+        {% assign prefix = labFileSrc | slice: 0, 3 %}
+
+
+        {% assigne dir2 =  '/' | concat%: pageUrl[2] | concat: '/'  %}
+        {% if dir = dir2 %}
+            <li>
+                <div><a href="{{labFileSrc}}">{{labName}}</a></div>
+                <div><a href="{{moduleName}}{{pageUrl[2]}}">{{pageUrl[2]}}</a></div>
+            </li>
+        {% endif %}
     {% endfor %}
 </ul>
