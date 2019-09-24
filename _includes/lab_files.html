@@ -14,7 +14,7 @@
         {% assign prefix = labFileSrc | slice: 0, 3 %}
 
 
-        {% assigne dir2 =  '/' | concat: pageUrl[2] | concat: '/'  %}
+        {% assigne dir2 =  '/' | append: pageUrl[2] | append: '/'  %}
 
         {{dir}} - {{dir2}}<br>
         {% if dir = dir2 %}
