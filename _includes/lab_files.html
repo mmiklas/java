@@ -6,7 +6,7 @@
 <ul>
     {% for page in site.pages %}
         {% assign pageUrl = page.url | split: "/" %}
-        {{page.url}} - {{pageUrl[2]}}<br>
+
 
         {% assign labNumber = page.url | slice: 19, 1 %}
         {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
@@ -15,6 +15,8 @@
 
 
         {% assigne dir2 =  '/' | concat%: pageUrl[2] | concat: '/'  %}
+
+        {{dir}} - {{dir2}}<br>
         {% if dir = dir2 %}
             <li>
                 <div><a href="{{labFileSrc}}">{{labName}}</a></div>
