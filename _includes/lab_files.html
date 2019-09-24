@@ -10,7 +10,7 @@
         {% assign dir2 =  "/" | append: pageUrl[1] | append: "/"  %}
         {% if dir == dir2 and prefix == "lab" %}
             <li>
-                <div><a href="java/{{moduleName}}{{pageUrl[2]}}">{{pageUrl[2]}}</a></div>
+                <div><a href="{{pageUrl[2]}}">{{pageUrl[2]}}</a></div>
             </li>
         {% endif %}
     {% endfor %}
