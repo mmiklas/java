@@ -3,11 +3,11 @@
 {% assign moduleNameSize = moduleName | append: 'src/' | size %}
 <ul>
     {% for file in site.static_files %}
-    {% assign dir2 = file.path | slice: 0, moduleNameSize  %}
-    {% if dir2 == dir and file.extname == '.java' %}
-    <li>
-        <div><a href="src/{{file.path | remove: dir}}">{{file.path | remove: dir}}</a></div>
-    </li>
-    {% endif %}
+        {% assign dir2 = file.path | slice: 0, moduleNameSize  %}
+        {% if dir2 == dir and file.extname == '.java' %}
+            <li>
+                <div><a href="src/{{file.path | remove: dir}}">{{file.path | remove: dir}}</a></div>
+            </li>
+        {% endif %}
     {% endfor %}
 </ul>
