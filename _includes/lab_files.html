@@ -8,20 +8,13 @@
         {% assign pageUrl = page.url | split: "/" %}
 
 
-        {% assign labNumber = page.url | slice: 19, 1 %}
-        {% assign labName = 'Lab ' | append: chapterNumber | append: '.' | append: labNumber %}
-        {% assign labFileSrc = page.url | remove: dir %}
-        {% assign prefix = labFileSrc | slice: 0, 3 %}
-
-
-        {% assign dir2 =  '/' | append: pageUrl[2] | append: '/'  %}
+        {% assign dir2 =  "/" | append: pageUrl[2] | append: "/"  %}
 
         {{dir}} - {{dir2}}<br>
-        {% if dir = dir2 %}
+
             <li>
-                <div><a href="{{labFileSrc}}">{{labName}}</a></div>
                 <div><a href="{{moduleName}}{{pageUrl[2]}}">{{pageUrl[2]}}</a></div>
             </li>
-        {% endif %}
+
     {% endfor %}
 </ul>
