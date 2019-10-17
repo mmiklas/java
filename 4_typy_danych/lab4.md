@@ -10,9 +10,11 @@ Zadeklaruj zmienne potrzebne do zachowania informacji dla jednego pracownika, u�
 
 2. Napisz program, który wyświetli trójkąt równoramienny z 9 symboli praw autorskich ©, mniej więcej tak:
 
-
+```console
        ©
       © ©
      ©   ©
     © © © ©
+```
+ 
  
