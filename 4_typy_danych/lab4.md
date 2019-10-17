@@ -1,3 +1,5 @@
+# Laboratorium 4
+
 1. Firma chce przechowywać informacje o swoich pracownikach w systemie. Każdy z rekordów definiujący pracownika powinien zawierać poniższe informacje:
 
 - First name
