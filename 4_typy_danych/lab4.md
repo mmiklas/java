@@ -8,6 +8,7 @@
 
 Zadeklaruj zmienne potrzebne do zachowania informacji dla jednego pracownika, używając odpowiednich typów danych. Używaj opisowych nazw. Wprowadź i wyświetl przykładowe dane.
 
+{:start="2"}
 2. Napisz program, który wyświetli trójkąt równoramienny z 9 symboli praw autorskich ©, mniej więcej tak:
 
 ```console
