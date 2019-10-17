@@ -22,13 +22,4 @@ public class EmployeeData {
         System.out.println("personalID: " + personalID);
 
     }
-
-
-
-   /*
-    First name
-- Last name
-- Age (0...100)
-- Gender (m or f)
-- Personal ID number (e.g. 8306112507)*/
 }
