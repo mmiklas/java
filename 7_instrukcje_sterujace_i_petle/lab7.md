@@ -23,3 +23,18 @@ n = 4	matrix
   4  5  6  7
         
 ```
+
+2. Napisz program, który:
+- konwertuje binarną liczbę całkowitą na postać dziesiętną,
+- dane wejściowe są wprowadzane jako ciąg znaków,
+- wynik powinien być zmienną typu long,
+- nie korzystaj z gotowych rozwiązań.
+
+Przykłady:
+
+ | binary | decimal |
+ | ------ | ------ |
+ | 0 | 0 |
+ | 11 | 3 |
+ | 1010101010101011 | 43691 |
+ | 1110000110000101100101000000 | 236476736 |
