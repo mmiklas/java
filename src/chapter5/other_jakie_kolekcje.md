@@ -1,1 +1,0 @@
-![jakie kolekcje](/img/jakie_kolekcje.jpg)
