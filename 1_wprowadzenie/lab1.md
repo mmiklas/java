@@ -31,16 +31,14 @@ javac HelloWorld.java
 java HelloWorld
 ```
 
-
 {:start="2"}
 2. Korzystając z IDE IntelliJ IDEA "wyklikaj" i uruchom program _HelloWorld_ z punktu 1.
 * Otwórz środowisko programistyczne **IntelliJ IDEA** (przycisk Start, idea).
-* Na ekranie powitalnym kliknij opcję **Create New Project**.  
+* Na ekranie powitalnym kliknij opcję **Create New Project**.
 ![Create New Project](./ij_create_new_project.png "Create New Project")
-* Zaznacz typ projektu **Java** i klikajac przycisk **New** wskaż ścieżkę do odpowiedniego SDK  
-*(C:\Program Files\Java\jdk1.8.0_144)*.
+* Zaznacz typ projektu **Java** i upewnij się, że jest wskazane SDK.
 * Nie wybieraj dodatkowych bibliotek ani framework'ów, kliknij przycisk **Next**.
-* Zaznacz opcję tworzenia projektu z szablonu **Create project from template**, szablon - **Java HelloWorld**, kliknij **Next**.
+* Możesz skorzystać z opcji tworzenia projektu z szablonu **Create project from_template**, szablon - **Command Line App**, kliknij **Next**.
 * Nazwij projekt *HelloWorld* i kliknij **Finish**.
 * Skompiluj i uruchom program korzystając z przycisku **RUN** *(Shift+F10)*.
 * Przeanalizuj automatycznie wygenerowany kod źródłowy, wskaż różnice w stosunku do programu z punktu 1.
