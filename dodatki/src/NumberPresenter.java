@@ -1,8 +1,6 @@
-package extras;
-
 public class NumberPresenter {
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         /deklaracja zmiennej lokalnej
         int i = 123;
 
@@ -28,5 +26,5 @@ public class NumberPresenter {
     public static showIntAsHex(int i) {
         System.out.println("szesnastkowo: \t" + Integer.toHexString(i));
     }
-*/
 }
+K
