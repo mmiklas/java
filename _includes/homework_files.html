@@ -1,0 +1,17 @@
+## Zdania domowe
+
+{% assign dir = moduleName %}
+{% assign moduleNameSize = moduleName | size %}
+
+<ul>
+    {% for page in site.pages %}
+    {% assign pageUrl = page.url | split: "/" %}
+    {% assign prefix = pageUrl[2] | slice: 0, 3 %}
+    {% assign dir2 =  "/" | append: pageUrl[1] | append: "/"  %}
+    {% if dir == dir2 and prefix == "zad" %}
+    <li>
+        <div><a href="{{pageUrl[2]}}">{{pageUrl[2]}}</a></div>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
