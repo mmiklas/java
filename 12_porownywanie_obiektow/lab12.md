@@ -5,4 +5,5 @@
    * stwórz klasę, Library przechowującą tablicę obiektów Book
    * wprowadź do tablicy kilka egzemplarzy Book
    * zademonstruj porównywanie książek
+   * wyświetl szczegóły porównywanych książek
 
