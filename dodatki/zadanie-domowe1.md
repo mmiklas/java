@@ -6,7 +6,7 @@
 
 3. Korzystając z mechanizmu dziedziczenia stwórz strukturę klas. Klasy **Dog** oraz **Cat** powinny dziedziczyć po klasie **Animal** i jednocześnie rozszerzać interfejs **Voice**.
 
-4. Napisz program wykonujący dowolną operacja na dwóch liczbach całkowity typu int oraz demeonstrujewizualnie to działanie w dwójkowym, ósmkowym oraz szestnastkowym systemie liczbowym.
+4. Napisz program wykonujący dowolną operacja na dwóch liczbach całkowitych typu int oraz demeonstruje wizualnie to działanie w dwójkowym, ósmkowym oraz szestnastkowym systemie liczbowym.
 
 Przykład
 ```bash
