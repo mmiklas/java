@@ -9,7 +9,7 @@ Przykłady:
  | **4**, 1, 1, 4, 2, 3, **4**, **4**, 1, 2, **4**, 9, 3 |	4 (5 razy) |
  
 {:start="2"}
-2. Zdefiniuj dowolną trójwymiarową tablicę elementów dowolnego typu i wyświetl jej zawartość w sposó przedstawiony poniżej.
+2. Zdefiniuj dowolną trójwymiarową tablicę elementów dowolnego typu i wyświetl jej zawartość w sposób przedstawiony poniżej.
 
 ```bash
 arr[0][0][0] = 1
