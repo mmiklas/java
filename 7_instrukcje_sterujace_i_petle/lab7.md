@@ -24,6 +24,7 @@ n = 4	matrix
         
 ```
 
+{:start="2"}
 2. Napisz program, który:
 - konwertuje binarną liczbę całkowitą na postać dziesiętną,
 - dane wejściowe są wprowadzane jako ciąg znaków,
