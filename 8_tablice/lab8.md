@@ -1,6 +1,6 @@
 # Laboratorium 8
 
-1. Napisz program, który znajdzie najczęściej występującą liczbę w tablicy.
+1. Napisz program, który znajdzie najczęściej występującą cyfrę w tablicy.
 
 Przykłady:
 
