@@ -12,4 +12,3 @@
  * zbiory piosenek powinny być ładowane podczas tworzenia odtwarzaczy
  * użycie akcji odwtarzaj powinno wyświetlać informację o odtwazranym utworze
  * akcje następny, poprzedni powinny odpowiednio zmieniać utwory
-
