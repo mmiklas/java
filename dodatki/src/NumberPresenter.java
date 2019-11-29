@@ -1,3 +1,4 @@
+/*
 public class NumberPresenter {
 
     public static void main(String[] args) {
@@ -27,4 +28,4 @@ public class NumberPresenter {
         System.out.println("szesnastkowo: \t" + Integer.toHexString(i));
     }
 }
-K
+K*/
