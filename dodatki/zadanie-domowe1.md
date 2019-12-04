@@ -1,4 +1,4 @@
-# Homework 1
+# Zadanie domowe 1
 
 1. Plik *NumberPresenter.java* zawiera niekompletny program wyświetlający liczbę całkowitą w różnych systemach liczbowych. Pobierz plik, usuń błędy i uruchom program.
 
