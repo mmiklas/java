@@ -11,4 +11,5 @@ double res2 = calc.add(1.0, 2.4, 3.4);
 ```
 
 {:start="2"}
+
 2. Stwórz klasy Human oraz Boy ustawiając je odpowiedniej relacji. Na przykładzie symbolicznej metody eat() zademonstruj działanie mechanizmu przesłaniania.
