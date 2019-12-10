@@ -11,9 +11,9 @@ java SquareRootApp 16
 
 {:start="2"}
 
-2. Utwórz klasę dla czterowymiarowego punktu o nazwie FourDPoint, wg wytycznych:
-- klasa FourDPoint powinna dziedziczyć po klasie Point z pakietu java.awt
-- napisz statyczną metodę create(int x, int y int z, int t) tworzącą obiekt klasy FourDPoint
-- napisz metodę show() wypisującą wszystkie współrzędne
+2. Utwórz klasę dla czterowymiarowego punktu o nazwie *FourDPoint*, wg wytycznych:
+- klasa *FourDPoint* powinna dziedziczyć po klasie *Point* z pakietu *java.awt*
+- napisz statyczną metodę *create(int x, int y int z, int t)* tworzącą obiekt klasy *FourDPoint*
+- napisz metodę *show()* wypisującą wszystkie współrzędne
 - stwórz przykładowy 4-wymiarowy ounkt i wyświetl jego współrzędne
  
