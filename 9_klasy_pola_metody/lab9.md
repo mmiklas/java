@@ -8,6 +8,7 @@ Przykład
 java SquareRootApp 16
 4.0
 ```
+
 {:start="2"}
 
 2. Utwórz klasę dla czterowymiarowego punktu o nazwie FourDPoint, wg wytycznych:
