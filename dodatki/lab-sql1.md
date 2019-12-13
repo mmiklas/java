@@ -1,6 +1,6 @@
 # SQL laboratorium 1
 
-1. Wyświetl:
+Wyświetl:
 - wszystkie wiersze (wszystkie kolumny) tabeli [SalesOrderHeader]
 - 3 wybrane kolumny tabeli [SalesOrderHeader] posortowanie wg kolumny ModifiedDate malejąco
 - 3 kolumny tabeli [Person].[Contact], posortowane wg LastName malejąco i FirstName rosnąco
