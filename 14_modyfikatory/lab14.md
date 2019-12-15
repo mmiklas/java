@@ -14,6 +14,6 @@ Napisz program symulujący działanie schroniska dla zwierząt, w tym celu:
  - do wylosowania liczby całkowitej z przedziału od 0 do 99 użyj konstrukcji:
  ```java
 Random random = new Random();
-int i = random.nextInt(100);
+int i = random.nextInt(3);
 ```
 
