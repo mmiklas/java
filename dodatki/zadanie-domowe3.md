@@ -1,6 +1,6 @@
 # Zadanie domowe 3
 
-1. Utwórz klasę o nazwie **Rectangle** posiadającą dwie właściwości (długością i szerokością) oraz metodę określającą pole powierzchni. Klasa powinna posiadać trzy konstruktory:
+1. Utwórz klasę o nazwie **Rectangle** posiadającą dwie właściwości (długość i szerokość) oraz metodę określającą pole powierzchni. Klasa powinna posiadać trzy konstruktory:
   - bez parametrowy - wartościom zarówno długości, jak i szerokości przypisuje się zero,
   - z dwoma parametrami - dwie liczby są przypisane odpowiednio jako długość i szerokość,
   - z jednym parametrem - zarówno długość, jak i szerokość otrzymują tą samą wartość.
