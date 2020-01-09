@@ -11,9 +11,9 @@ Napisz program symulujący działanie schroniska dla zwierząt, w tym celu:
  * wyświetl informacje jakie zwierzę zostało umieszczone w kojcu nr 33 oraz ile tego rodzaju zwierząt przebywa obecnie w schronisku
  
  Podpowiedź:
- - do wylosowania liczby całkowitej z przedziału od 0 do 99 użyj konstrukcji:
+ - do wylosowania liczby całkowitej z przedziału od 0 do 2 użyj konstrukcji:
  ```java
 Random random = new Random();
-int i = random.nextInt(100);
+int i = random.nextInt(3);
 ```
 
