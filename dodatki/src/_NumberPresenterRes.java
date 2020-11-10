@@ -1,4 +1,4 @@
-public class NumberPresenterRes {
+public class _NumberPresenterRes {
 
     public static void main(String[] args) {
         //deklaracja zmiennej lokalnej
