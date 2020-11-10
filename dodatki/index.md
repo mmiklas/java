@@ -3,10 +3,10 @@
 # Dodatki
 {% include homework_files.html %}
 {% include lab_files.html %}
-##Różne
+## Różne
 <ul>
     <li>
-        <div><a href="zadania.html">zadania.md</a></div>
+        <div><a href="dodadkowe-zadania.html">dodadkowe-zadania.html</a></div>
     </li>
 </ul>
 {% include java_files.html %}
