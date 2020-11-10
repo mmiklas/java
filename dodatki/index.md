@@ -6,7 +6,7 @@
 ## Różne
 <ul>
     <li>
-        <div><a href="dodadkowe-zadania.html">dodadkowe-zadania.html</a></div>
+        <div><a href="dodatkowe-zadania.html">dodatkowe-zadania.html</a></div>
     </li>
 </ul>
 {% include java_files.html %}
