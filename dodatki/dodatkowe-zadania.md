@@ -10,6 +10,6 @@ Należy napisać dowolny program demonstrujący działanie 3 rodzajów zmiennych
  - zmiennej klasy (statycznej).
  
  Zmiennene powinny posiadać następujące nazwy:
- - localVarible,
- - instanceVarible,
- - classVarible.
+ - localVariable,
+ - instanceVariable,
+ - classVariable.
