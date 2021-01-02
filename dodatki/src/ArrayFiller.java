@@ -1,4 +1,4 @@
-public class _ArrayFiller {
+public class ArrayFiller {
     public static void main(String[] args) {
         int arrSize = 0;
         if (args.length > 0) {
