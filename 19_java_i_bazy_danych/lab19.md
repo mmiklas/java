@@ -1,10 +1,6 @@
 # Laboratorium 19
 
-1. Napisz program, który korzystając z bazy danych AdventureWorks wyświetli następujące informacje:
-* 10-ciu pierwszych pracowników, którzy mają na nazwisko „Anderson”,
-* listę stanowisk w firmie (JobTitle),
-* ile zamówień złożył każdy z klientów sortując po liczbie zamówień malejąco.
- 
- 
+1. Napisz program, który korzystając z bazy danych AdventureWorks wyświetli podstawowe dane 10. pierwszych osób (Person.Contact), którzy mają na nazwisko „Anderson”.
+2. Dokonaj modyfikacji powyższego programu, aby można było wyszukiwać osoby podając początek nazwiska.
 
   
