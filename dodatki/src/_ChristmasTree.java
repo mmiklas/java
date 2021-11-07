@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class ChristmasTree {
+public class _ChristmasTree {
     public static void main(String[] args) {
 
         //domyślna wysokość choinki

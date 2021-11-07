@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class Checkers {
+public class _Checkers {
     public static void main(String[] args) {
 
         //jest problem czy typ long jest wystarczająco pojemny?
