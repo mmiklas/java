@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class _Checkers {
+public class Checkers {
     public static void main(String[] args) {
 
         //jest problem czy typ long jest wystarczająco pojemny?
@@ -19,7 +19,7 @@ public class _Checkers {
         BigInteger bigSum = new BigInteger("0");
         BigInteger bigLast = new BigInteger("1");
         System.out.println("Przyklad wykorzystania typu obiektowego BigInteger");
-        for (int j = 0; j < 65; j++) {
+        for (int j = 1; j < 65; j++) {
             bigSum = bigSum.add(bigLast);
             System.out.println("nr pola: " + j + ", ziarna na polu: " + bigLast + ", suma wszystkich ziaren: " + bigSum);
             bigLast = bigLast.multiply(new BigInteger("2"));
