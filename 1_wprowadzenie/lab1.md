@@ -38,7 +38,7 @@ java HelloWorld
 ![Create New Project](./ij_create_new_project.png "Create New Project")
 * Zaznacz typ projektu **Java** i upewnij się, że jest wskazane JDK.
 * Nie wybieraj dodatkowych bibliotek ani framework'ów, kliknij przycisk **Next**.
-* Kliknij prawym przyciskiem na folderze **src** i utwórz nową klasę wybierając **New -> Java Class**.
 * Nazwij projekt *HelloWorld* i kliknij **Finish**.
+* W projekcie, kliknij prawym przyciskiem na folderze **src** i utwórz nową klasę wybierając **New -> Java Class**.
+* Wprowadź treść programu dla nowo utworzonej klasy.
 * Skompiluj i uruchom program korzystając z przycisku **RUN** *(Shift+F10)*.
-* Przeanalizuj automatycznie wygenerowany kod źródłowy, wskaż różnice w stosunku do programu z punktu 1.
