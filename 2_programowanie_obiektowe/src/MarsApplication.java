@@ -1,4 +1,4 @@
-class MarsApplication {
+public class MarsApplication {
     public static void main(String[] arguments) {
         MarsRobot spirit = new MarsRobot();
         spirit.status = "eksploracja";
