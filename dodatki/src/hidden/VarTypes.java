@@ -1,4 +1,6 @@
-public class _VarTypes {
+package hidden;
+
+public class VarTypes {
     public String instanceVariable = "Jestem zmienną egzemplarza";
     public static String classVariable = "Jestem zmienną klasy";
 
@@ -9,10 +11,10 @@ public class _VarTypes {
         System.out.println(localVariable);
 
         //wyświetla zawartość zmiennej egzemplarza
-        _VarTypes varTypes = new _VarTypes();
+        VarTypes varTypes = new VarTypes();
         System.out.println(varTypes.instanceVariable);
 
         //wyświetla zawartość zmiennej klasy
-        System.out.println(_VarTypes.classVariable);
+        System.out.println(VarTypes.classVariable);
     }
 }

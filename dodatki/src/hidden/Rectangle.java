@@ -1,16 +1,18 @@
-public class _Rectangle {
+package hidden;
+
+public class Rectangle {
     private int lenght;
     private int breadth;
 
-    public _Rectangle() {
+    public Rectangle() {
     }
 
-    public _Rectangle(int lenght, int breadth) {
+    public Rectangle(int lenght, int breadth) {
         this.lenght = lenght;
         this.breadth = breadth;
     }
 
-    public _Rectangle(int lenghtAndBreadth) {
+    public Rectangle(int lenghtAndBreadth) {
         this.lenght = lenghtAndBreadth;
         this.breadth = lenghtAndBreadth;
     }
@@ -20,9 +22,9 @@ public class _Rectangle {
     }
 
     public static void main(String[] args) {
-        _Rectangle r1 = new _Rectangle();
-        _Rectangle r2 = new _Rectangle(5,6);
-        _Rectangle r3 = new _Rectangle(4);
+        Rectangle r1 = new Rectangle();
+        Rectangle r2 = new Rectangle(5,6);
+        Rectangle r3 = new Rectangle(4);
 
         System.out.println("Pole powierzchni prostokąta r1 wynosi " + r1.caluclateArea());
         System.out.println("Pole powierzchni prostokąta r2 wynosi " + r2.caluclateArea());

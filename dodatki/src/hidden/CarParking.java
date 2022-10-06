@@ -1,6 +1,8 @@
+package hidden;
+
 import java.util.Random;
 
-public class _CarParking {
+public class CarParking {
     public static void main(String[] args) {
 
         String[] types = {"Yaris","Corolla","Aygo"};
@@ -9,15 +11,15 @@ public class _CarParking {
 
         Random random = new Random();
 
-        _Car[] parking = new _Car[100];
+        Car[] parking = new Car[100];
         for (int i=0; i<parking.length; i++) {
             String type = types[random.nextInt(2)];
             String color = colors[random.nextInt(2)];
             int year = years[random.nextInt(2)];
-            parking[i] = new _Car(type, color, year);
+            parking[i] = new Car(type, color, year);
         }
 
-        for (_Car car : parking) {
+        for (Car car : parking) {
             System.out.println(car);
         }
         //todo statystyki

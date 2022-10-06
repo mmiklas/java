@@ -1,4 +1,6 @@
-public class _NumberSystemOperation {
+package hidden;
+
+public class NumberSystemOperation {
 
     public static void main(String[] args) {
 

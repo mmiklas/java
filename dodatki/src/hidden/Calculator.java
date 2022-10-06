@@ -1,11 +1,11 @@
-package results;
+package hidden;
 
 public class Calculator {
     public static void main(String[] args) {
         int a = 5;
         int b = 67;
 
-        results.Calculator calculator = new results.Calculator();
+        Calculator calculator = new Calculator();
 
         System.out.println("Wynik dodawania: " + calculator.sum(a, b));
         System.out.println("Wynik odejmowania: " + calculator.sub(a, b));
