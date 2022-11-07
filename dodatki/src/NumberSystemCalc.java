@@ -1,5 +1,3 @@
-package hidden;
-
 public class NumberSystemCalc {
     public static void main(String[] args) {
         int a = 13;
