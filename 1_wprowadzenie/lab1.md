@@ -10,8 +10,6 @@ public class HelloWorld {
 }
 ``` 
 * Uruchom w Windows **Wiersz polecenia** (przycisk Start, cmd).
-**Porada:** Możesz zwiększyć czcionkę w terminalu używając skrótu ctrl + =.
-
 * Sprawdź wersje oraz dostępność zainstalowanych komponentów JDK.
 
 ```bash
@@ -19,7 +17,12 @@ java -version
 javac -version
 ```
 
-* Na dysku Z: utwórz za pomocą notatnika plik _HelloWorld.java_ i wpisz w nim program.
+* Na dysku D: utwórz za pomocą notatnika plik _HelloWorld.java_ i wpisz w nim program.
+
+```bash
+d:
+notepad HelloWorld.java
+```
 * Korzystając z kompilatora javac, skompiluj program do bajtkodu otrzymując plik _HelloWorld.class_.
 
 ```bash
