@@ -10,6 +10,8 @@ public class HelloWorld {
 }
 ``` 
 * Uruchom w Windows **Wiersz polecenia** (przycisk Start, cmd).
+**Porada:** Możesz zwiększyć czcionkę w terminalu używając skrótu ctrl + =.
+
 * Sprawdź wersje oraz dostępność zainstalowanych komponentów JDK.
 
 ```bash
@@ -25,20 +27,23 @@ javac HelloWorld.java
 ```
 
 * Poleceniem _java_ uruchom wirtualną maszynę i wykonaj skompilowany wcześniej program.  
-**TIP:** Gdy uruchamiasz program podaj tylko nazwę pliku/klasy, nie wpisuj rozszerzenia.
+**Porada:** Gdy uruchamiasz program podaj tylko nazwę pliku/klasy, nie wpisuj rozszerzenia.
 
 ```bash
 java HelloWorld
 ```
 
 {:start="2"}
-2. Korzystając z IDE IntelliJ IDEA "wyklikaj" i uruchom program _HelloWorld_ z punktu 1.
+2. Korzystając z IntelliJ IDEA uruchom program _HelloWorld_ z punktu 1.
+
 * Otwórz środowisko programistyczne **IntelliJ IDEA** (przycisk Start, idea).
-* Na ekranie powitalnym kliknij opcję **Create New Project**.
-![Create New Project](./ij_create_new_project.png "Create New Project")
-* Zaznacz typ projektu **Java** i upewnij się, że jest wskazane JDK.
-* Nie wybieraj dodatkowych bibliotek ani framework'ów, kliknij przycisk **Next**.
-* Nazwij projekt *HelloWorld* i kliknij **Finish**.
+* Na ekranie powitalnym kliknij opcję **New Project**.
+![New Project](./ij_new_project.png "New Project")
+* Nazwij projekt **helloworld**.
+* Upewnij się, że jest wskazane JDK.
+* Odznacz opcję **Add sample code**.
+* Kliknij przycisk **Create**.
+  ![Hello World!](./ij_hello_world.png "Hello World!")
 * W projekcie, kliknij prawym przyciskiem na folderze **src** i utwórz nową klasę wybierając **New -> Java Class**.
-* Wprowadź treść programu dla nowo utworzonej klasy.
-* Skompiluj i uruchom program korzystając z przycisku **RUN** *(Shift+F10)*.
+* Wprowadź kod programu.
+* Skompiluj i uruchom program korzystając z przycisku **Run** *(Shift+F10)*.
