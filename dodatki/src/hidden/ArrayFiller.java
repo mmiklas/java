@@ -1,3 +1,5 @@
+package hidden;
+
 public class ArrayFiller {
     public static void main(String[] args) {
         int arrSize = 0;

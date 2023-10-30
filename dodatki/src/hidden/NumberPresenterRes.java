@@ -1,3 +1,5 @@
+package hidden;
+
 public class NumberPresenterRes {
 
     public static void main(String[] args) {
