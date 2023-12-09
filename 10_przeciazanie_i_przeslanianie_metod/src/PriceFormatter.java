@@ -1,4 +1,4 @@
-class PriceFormater {
+class PriceFormatter {
 
     String currency = "zł";
 
@@ -15,7 +15,7 @@ class PriceFormater {
     }
 
     public static void main(String[] args) {
-        PriceFormater pf = new PriceFormater();
+        PriceFormatter pf = new PriceFormatter();
         //pf.currency = "PLN";
         System.out.println(pf.formatPrice(500));
         System.out.println(pf.formatPrice(89.9934));
