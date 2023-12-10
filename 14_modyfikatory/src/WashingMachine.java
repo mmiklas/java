@@ -1,15 +1,15 @@
 public class WashingMachine {
 
     private int temperature;
-    private int spining;
+    private int spinSpeed;
 
     void modeForSensitiveClothes() {
         temperature = 30;
-        spining = 800;
+        spinSpeed = 800;
     }
 
     void modeForTowelsAndBedLinen() {
         temperature = 90;
-        spining = 1200;
+        spinSpeed = 1200;
     }
 }
