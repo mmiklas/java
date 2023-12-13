@@ -1,5 +1,3 @@
-package hidden;
-
 public class Zoo {
     public static void main(String[] args) {
         Animal cat = new Cat();
