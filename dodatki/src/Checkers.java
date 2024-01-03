@@ -1,5 +1,3 @@
-package hidden;
-
 import java.math.BigInteger;
 
 public class Checkers {

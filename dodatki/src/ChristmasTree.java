@@ -1,5 +1,3 @@
-package hidden;
-
 import java.util.Random;
 
 public class ChristmasTree {
