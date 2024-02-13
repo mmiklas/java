@@ -1,6 +1,6 @@
 # Laboratorium 15
 
- 1. Stwórz szkielet programu symulującego działanie różnych odtwarzaczy muzycznych jak Mp3, CD itd, wg wytycznych:
+ 1. Stwórz szkielet programu symulującego działanie różnych odtwarzaczy muzycznych jak Streamer, Mp3, CD itd., wg wytycznych:
  * konkretne odtwarzacze powinny rozszerzać abstrakcyjną klasę MusicPlayer,
  * abstrakcyjna klasa MusicPlayer powinna implementować interfejs Player,
  * interfejs Player powienien dostarczać takich funkcji jak odtwarzaj, pauza stop, następny utwór, poprzedni utwór,
