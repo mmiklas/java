@@ -1,6 +1,6 @@
 # Zadanie domowe 4
 
-1. Napisz interfejs **Operation**, który będzie miał metodę **double execute(double a, double b)**, która wykonuje operację na dwóch liczbach i zwraca wynik. Zaimplementuj ten interfejs w klasach **Addition** (dodawanie) i **Multiplication** (mnożenie).
+1. Napisz interfejs **Operation** z metodą **double execute(double a, double b)**, która wykonuje operację na dwóch liczbach i zwraca wynik. Zaimplementuj ten interfejs w klasach **Addition** (dodawanie) i **Multiplication** (mnożenie).
  
 {:start="2"}
 2. Napisz program, który prosi użytkownika o podanie indeksu tablicy a następnie wyświetla wartość znajdującą się pod tym indeksem. Obsłuż przypadek, gdy indeks jest poza zakresem tablicy, wyświetlając komunikat "Indeks poza zakresem!" oraz przypadek, gdy wprowadzone dane nie są liczbą całkowitą, wyświetlając komunikat "Wprowadź poprawny indeks!".
