@@ -1,5 +1,3 @@
-package hidden;
-
 import java.util.Objects;
 
 public class Car {
@@ -13,9 +11,21 @@ public class Car {
         this.year = year;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
     @Override
     public String toString() {
-        return "hidden.Car{" +
+        return "Car{" +
                 "type='" + type + '\'' +
                 ", color='" + color + '\'' +
                 ", year=" + year +
