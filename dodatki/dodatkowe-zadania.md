@@ -13,3 +13,15 @@ Należy napisać dowolny program demonstrujący działanie 3 rodzajów zmiennych
  - localVariable,
  - instanceVariable,
  - classVariable.
+
+### Kolekcje
+#### Analiza Statystyk Zawodników w Lidze Koszykówki
+
+Napisz program w Javie, który pobierze dane statystyczne zawodników z pliku CSV, a następnie przeprowadzi analizę tych danych, wykorzystując różne typy kolekcji. Program powinien:
+
+- Wczytać dane z pliku CSV [players.csv](src%2Fplayers.csv).
+- Przechować dane zawodników w odpowiednich strukturach danych.
+- Wykonać kilka operacji analitycznych, takich jak:
+  - Znalezienie zawodnika o najwyższej średniej punktów na mecz.
+  - Policz liczbę zawodników w każdym z zespołów.
+  - Znajdź zespół z najwyższą sumą punktów.
