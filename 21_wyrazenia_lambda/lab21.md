@@ -1,4 +1,4 @@
-# Laboratorium 20
+# Laboratorium 21
 
 1. Posortuj tablicę nazw planet układu słonecznego stosując wyrażenie lambda.
    Sortowanie alfabetyczne po ostatniej literze w nazwie planety.

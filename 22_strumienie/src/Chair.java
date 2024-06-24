@@ -39,4 +39,13 @@ public class Chair {
     public int hashCode() {
         return 17 * model.hashCode() + 31 * manufacturer.hashCode() + 7 * productionYear;
     }
+
+    @Override
+    public String toString() {
+        return "Chair{" +
+                "model='" + model + '\'' +
+                ", manufacturer='" + manufacturer + '\'' +
+                ", productionYear=" + productionYear +
+                '}';
+    }
 }
